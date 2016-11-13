@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalkoKote", "MalkoKote\Malk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conductors", "Conductors\Conductors.csproj", "{91B042F9-25AC-46C0-B102-B7492938406E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Odd Divisors", "Sum of Odd Divisors\Sum of Odd Divisors.csproj", "{50CAE49F-3CB8-4CAB-A80D-B00630BC6DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{91B042F9-25AC-46C0-B102-B7492938406E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91B042F9-25AC-46C0-B102-B7492938406E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91B042F9-25AC-46C0-B102-B7492938406E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CAE49F-3CB8-4CAB-A80D-B00630BC6DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CAE49F-3CB8-4CAB-A80D-B00630BC6DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CAE49F-3CB8-4CAB-A80D-B00630BC6DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CAE49F-3CB8-4CAB-A80D-B00630BC6DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

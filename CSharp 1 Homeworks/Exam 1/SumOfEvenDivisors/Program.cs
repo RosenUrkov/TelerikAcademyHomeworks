@@ -25,7 +25,7 @@ namespace SumOfEvenDivisors
             }
             for (int i = startOfLine; i <= endOfLine; i+=2)
             {
-                for (int j = 2; i <= i; j+=2)
+                for (int j = 2; j <= i; j+=2)
                 {
 
 
