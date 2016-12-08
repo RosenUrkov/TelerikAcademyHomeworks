@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Segoe UI', 'Segoe UI Web', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+    background-color: #FFFFFF;
+    background-image: url("./images/final.png");
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 1000px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+    padding-left: 6px;
+}
+
+#logo{
+    display: inline-block;
+    background-image: url("./images/logo.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 200px;
+    position: relative;
+
+}
+
+input[type="search"]{
+    float:right;
+    position: relative;
+    top: -38px;
+    width: 200px;
+    height: 25px;
+    box-sizing: border-box;
+    right: 5px;
+}
+
+input[type="search"].searchText::-webkit-input-placeholder{
+padding-left: 2px;
+}
+
+#menu{
+    float:right;
+    position: relative;
+    top:-33px;
+    right: 22px;
+    bottom: 10px;
+}
+
+#menu li{
+    display: inline-block;     
+    
+}
+
+#menu li a{    
+    float:left;
+    color: white;    
+    padding-left: 11px;
+    font-weight: bold;  
+    text-decoration: none;  
+}
+
+#menu li a::first-letter{
+    text-transform: uppercase;
+}
+
+header{
+    font-size: 13px;
+    background-color: #077cc6;
+    height: 35px;
+    box-sizing: border-box;
+
+}
+
+#main{
+    font-size: 16px;  
+    position: relative;
+    left: 7px;  
+    /*width: 1000px;*/
+}
+
+#main h1{
+    font-size: 53px;
+    display: inline-block;
+    font-weight: normal;
+    position: relative;
+    bottom: 12px;
+    left:14px;
+}
+
+#main img{
+    border: none;
+    float: right;
+    position: relative;
+    left: 185px;
+    bottom: 12px;    
+}
+
+#main p{
+    padding-left: 15px;
+    padding-bottom: 13px;
+    padding-top: 3px;
+    text-align: justify;
+}
+
+#main p a{
+    text-decoration: none;
+    color:	#DC143C;
+}
+
+code{
+border: 1px solid black;
+font-weight: bold;
+}
+
+#footer a{
+    color: white;
+}
+
+footer{
+    font-size: 11px;
+    margin-top: 18px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+    background-color: #077cc6;
+    color: white;
+      font-weight: bold;  
+}
+
+footer .copyright{
+text-transform: capitalize;
+text-decoration: underline;
+}
+
+

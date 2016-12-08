@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretNumeralSystem", "SecretNumeralSystem\SecretNumeralSystem.csproj", "{DFB23F11-B684-41B6-97D8-803E642F588E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj", "{E2A755B0-DE0D-40D4-9EB0-CC485B9A7293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoshoCode", "GoshoCode\GoshoCode.csproj", "{1B1DF6F7-DB5C-4CF7-B085-1FBC051A719C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SneakySnake", "SneakySnake\SneakySnake.csproj", "{7C84B7CF-B5A0-4597-9273-A06D67850CD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFB23F11-B684-41B6-97D8-803E642F588E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB23F11-B684-41B6-97D8-803E642F588E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB23F11-B684-41B6-97D8-803E642F588E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB23F11-B684-41B6-97D8-803E642F588E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A755B0-DE0D-40D4-9EB0-CC485B9A7293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A755B0-DE0D-40D4-9EB0-CC485B9A7293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A755B0-DE0D-40D4-9EB0-CC485B9A7293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A755B0-DE0D-40D4-9EB0-CC485B9A7293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1DF6F7-DB5C-4CF7-B085-1FBC051A719C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1DF6F7-DB5C-4CF7-B085-1FBC051A719C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1DF6F7-DB5C-4CF7-B085-1FBC051A719C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1DF6F7-DB5C-4CF7-B085-1FBC051A719C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C84B7CF-B5A0-4597-9273-A06D67850CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C84B7CF-B5A0-4597-9273-A06D67850CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C84B7CF-B5A0-4597-9273-A06D67850CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C84B7CF-B5A0-4597-9273-A06D67850CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

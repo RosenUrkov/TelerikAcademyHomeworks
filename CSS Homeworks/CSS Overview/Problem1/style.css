@@ -1,0 +1,58 @@
+*{
+    margin: 0; padding: 0;
+    }
+body{
+    background-color:gray;
+    margin-top: 10px
+    }
+h2,dl dd.activity{
+    color: lightgrey;font-family: "Times New Roman", Times, serif;
+    }
+    dt{
+        color: white;
+    }
+
+.message{
+    color: red
+    }
+dl {
+  width: 30%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0
+ }
+dt {
+  font-style: italic;
+  float: left;
+  width: 70%;
+  padding: 0;
+  margin: 0px;
+  clear: left;
+}
+dd {
+  float: left;
+  padding-left: 200px;
+  margin: 0
+} 
+dd.link{
+padding-top: 20px;
+}
+dd.link ,dd.data{
+color: beige;
+}
+dd.status{
+    color: orange;
+}
+
+#circle {
+    display: inline-block;
+      width: 14px;
+      height: 14px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: palegreen;
+      /*border: 1px solid white;*/
+    }
+
+

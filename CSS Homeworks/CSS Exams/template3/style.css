@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 960px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    /*background-image: url("./images/initial.png");
+    background-repeat: no-repeat;*/
+    font-size: 16px 
+}
+
+ul , li , .image-container{
+    display: inline-block;
+}
+
+li{
+    height: 100px;
+    text-align: center;
+}
+
+.menu{
+    padding-left: 5px;
+    padding-top: 3px;
+    position: relative;
+    top: -20px;
+}
+
+.image-container{
+    width: 160px;
+    height: 180px;
+    padding-right: 20px;
+    /* Chrome 10+,Safari */
+background : -webkit-linear-gradient(top, rgb(101, 101, 101) 00%, rgb(254, 254, 254) 99%);
+/* Firefox 4+ */ 
+background : -moz-linear-gradient(top, rgb(101, 101, 101) 00%, rgb(254, 254, 254) 99%);
+/* Opera */
+background : -o-linear-gradient(top, rgb(101, 101, 101) 00%, rgb(254, 254, 254) 99%);
+/* IE 10+ */
+background : -ms-linear-gradient(top, rgb(101, 101, 101) 00%, rgb(254, 254, 254) 99%); 
+/* W3C */
+background : -linear-gradient(top, rgb(101, 101, 101) 00%, rgb(254, 254, 254) 99%);
+    border: 20px solid #808080;
+}
+
+img{
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+    left:10px;
+    top:33px;
+}
+
+h3{
+    position: relative;
+    top: 48px;
+    padding-left: 0;
+    color:white;
+}
+
+.subtitle{
+    position: relative;
+    top:-52px;
+}
+
+.click-here{
+    display: none;
+}
+
+.menu li:hover{
+    position: relative;
+    top:0px; 
+}
+
+.menu li:hover img{
+   width: 140px;
+   height: 115px;
+}
+
+.menu li:hover .subtitle{
+    display:none;
+}
+
+.menu li:hover .image-container{
+    border-color: #454545;
+    background: #808080;;
+}
+
+.menu li:hover .click-here{
+    display: block;
+    position: relative;
+    color:white;
+    text-transform: uppercase;
+    bottom: 50px;
+
+}

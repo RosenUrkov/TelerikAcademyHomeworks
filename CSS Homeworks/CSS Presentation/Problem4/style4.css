@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#main-window {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(190, 220, 251);
+    margin: 10px;
+    width: 500px;
+    height: 520px;
+    padding: 10px 8px 2px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#main-window>span {
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+}
+
+div#main-window img#top-bar {
+    /*position: absolute;
+    top: 5px;
+    left: 400px;*/
+    float: right;
+    position: relative;
+    bottom: 9px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+div#content {
+    background-color: rgb(217, 228, 241);
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 480px;
+    /*padding: 5px;*/
+}
+
+div#content>ul {
+    background-color: rgb(211, 218, 237);
+    border-bottom: 1px solid rgb(193, 197, 209);
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+div#content>ul li {
+    margin-left: 5px;
+    margin-right: 7px;
+}
+
+div#content>ul li:first-letter {
+    text-decoration: underline;
+}
+
+div#display {
+    text-align: right;
+    padding: 20px 5px 5px;
+    border: 2px solid rgb(193, 197, 209);
+    margin: 10px 5px 5px 5px;
+    border-radius: 7px;
+    background-color: rgb(231, 240, 251);
+    height: 35px;
+}
+
+div#display span {
+    position: relative;
+    top: 7px;
+    font-size: 25px;
+}
+
+div#binaries {
+    margin: 10px 5px 5px 5px;
+    font-family: Consolas;
+    background-color: rgb(217, 228, 241);
+    border: 2px solid rgb(193, 197, 209);
+    border-radius: 7px;
+    padding-left: 5px;
+    padding-right: 3px;
+    color: rgb(121, 153, 174);
+}
+
+div#binaries table.binary {
+    border-collapse: collapse;
+    border: none;
+}
+
+div#binaries table.binary td {
+    border: none;
+    padding: 1px 12px;
+}
+
+div#binaries table.binary td.last-binary {
+    text-align: right;
+}
+
+div#side-menus {
+    display: inline-block;
+    border: none;
+    margin-left: 5px;
+    font-size: 15px;
+    color: rgb(121, 153, 174);
+}
+
+div#side-menus div#numeral-systems {
+    border: 2px solid rgb(193, 197, 209);
+    border-radius: 5px;
+    padding: 5px 20px 5px 5px;
+    padding-left: 5px;
+    padding-right: 30px;
+    position: relative;
+    bottom: 46px;
+}
+
+div#side-menus div#numeral-systems p,
+div#side-menus div#units p {
+    padding-bottom: 8px;
+}
+
+div#side-menus div#units {
+    border: 2px solid rgb(193, 197, 209);
+    border-radius: 5px;
+    padding: 5px 20px 5px 5px;
+    padding-left: 5px;
+    padding-right: 30px;
+    position: relative;
+    bottom: 29px;
+}
+
+div.buttons {
+    display: inline-block;
+    border: none;
+}
+
+div.buttons table td {
+    border: 2px solid rgb(193, 197, 209);
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(121, 153, 174);
+}
+
+div.buttons table td.active {
+    background-color: rgb(220, 229, 260)
+}
+
+div.buttons table td#golden-button,
+div.buttons table td:not(.inactive):hover {
+    border: 2px solid #ffdb00;
+    background: rgb(255, 244, 233);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZjRlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ5JSIgc3RvcC1jb2xvcj0iI2ZlZTJjMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmY2Y2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmViODUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(255, 244, 233, 1) 0%, rgba(254, 226, 194, 1) 49%, rgba(255, 207, 106, 1) 50%, rgba(255, 235, 133, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 244, 233, 1)), color-stop(49%, rgba(254, 226, 194, 1)), color-stop(50%, rgba(255, 207, 106, 1)), color-stop(100%, rgba(255, 235, 133, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255, 244, 233, 1) 0%, rgba(254, 226, 194, 1) 49%, rgba(255, 207, 106, 1) 50%, rgba(255, 235, 133, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255, 244, 233, 1) 0%, rgba(254, 226, 194, 1) 49%, rgba(255, 207, 106, 1) 50%, rgba(255, 235, 133, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255, 244, 233, 1) 0%, rgba(254, 226, 194, 1) 49%, rgba(255, 207, 106, 1) 50%, rgba(255, 235, 133, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255, 244, 233, 1) 0%, rgba(254, 226, 194, 1) 49%, rgba(255, 207, 106, 1) 50%, rgba(255, 235, 133, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fff4e9', endColorstr='#ffeb85', GradientType=0);
+    /* IE6-8 */
+}
+
+div.buttons table td.num {
+    background-color: rgb(234, 241, 248);
+}
+
+div.buttons table td {
+    width: 33px;
+    height: 29px;
+}
+
+div.buttons table td.inactive {
+    border: 2px solid rgb(193, 197, 209, 0.7);
+    background-color: rgb(217, 228, 241);
+}
+
+div.buttons table td {
+    background: rgb(212, 224, 237);
+}

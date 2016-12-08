@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    padding: 10px;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul#mmain-list>li {
+    padding: 2px;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    padding-left: 10px;
+    display: block;
+    color: dimgrey;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    box-sizing: border-box;
+    width: 420px;
+    background-color: #EEEEEE;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+div.category {
+    background-color: white;
+    margin-top: 35px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+div.buttons {
+    position: relative;
+    left: 210px;
+}
+
+div.buttons span {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 15px;
+    color: white;
+    background: url("./images/red-square.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    background-color: #CC0000;
+    width: 50px;
+    height: 20px;
+    border: 2px solid #660000;
+}
+
+p {
+    margin-left: 5px;
+    display: inline-block;
+    width: 210px;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+}
+
+#first {
+    bottom: 37px;
+}

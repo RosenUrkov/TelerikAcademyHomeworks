@@ -1,0 +1,21 @@
+p{
+   color: #0094ff;
+}
+P::first-line{     
+    font-family: Consolas, monaco, monospace;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 30px;
+}
+@font-face {font-family: "Edwardian Script ITC";
+    src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.eot");
+    src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.eot?#iefix") format("embedded-opentype"),    
+    url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.svg#Edwardian Script ITC") format("svg");
+}
+
+p::first-letter{
+    font-family: "Edwardian Script ITC";
+    font-size: 30px;
+}

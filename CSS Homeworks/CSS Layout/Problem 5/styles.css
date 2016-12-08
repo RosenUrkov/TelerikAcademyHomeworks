@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin: 5px;
+    font-family: sans-serif;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 1070px;
+    border: 2px solid black;
+    height: 710px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #07B1F1;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+img {
+    box-sizing: border-box;
+    width: 160px;
+    height: 100px;
+}
+
+fieldset {
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 320px;
+    height: 200px;
+    display: inline-block;
+    padding: 10px;
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset p {
+    display: inline-block;
+}
+
+
+/*div*/
+
+#models {
+    margin-top: 15px;
+    box-sizing: border-box;
+    width: 695px;
+    padding: 10px;
+}
+
+.ssd {
+    position: relative;
+    left: 20px;
+    bottom: 55px;
+}
+
+.ddr {
+    position: relative;
+    left: 185px;
+    bottom: 40px;
+}
+
+p>span {
+    position: relative;
+    top: 15px;
+    right: 40px;
+}
+
+p>span:nth-child(2) {
+    left: 25px;
+}
+
+#prices {
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    bottom: 550px;
+    font-size: 25px;
+}
+
+input {
+    width: 200px;
+}
+
+#prices p,
+#prices input {
+    margin-top: 25px;
+    word-spacing: 4px;
+}

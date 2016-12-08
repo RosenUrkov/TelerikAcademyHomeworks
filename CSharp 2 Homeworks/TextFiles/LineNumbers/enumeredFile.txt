@@ -1,0 +1,48 @@
+0. using System;
+1. using System.Collections.Generic;
+2. using System.IO;
+3. using System.Linq;
+4. using System.Text;
+5. using System.Threading.Tasks;
+6. 
+7. namespace LineNumbers
+8. {
+9.     class Program
+10.     {
+11.         static void Main(string[] args)
+12.         {
+13.             string startPath = @"..\..\Program.cs";
+14.             EnumerateTextLines(startPath);
+15.         }
+16. 
+17.         //static StringBuilder ReadFile(string path)
+18.         //{
+19.         //    StringBuilder text = new StringBuilder();
+20.         //    var reader = new StreamReader(path);
+21.         //    using (reader)
+22.         //    {
+23.         //        while (!reader.EndOfStream)
+24.         //        {
+25.         //            text.AppendLine(reader.ReadLine());
+26.         //        }
+27.         //    }
+28.         //    return text;
+29.         //}
+30. 
+31.         static void EnumerateTextLines(string path)
+32.         {
+33.             int counter = 0;
+34.             using (var reader = new StreamReader(path))
+35.             {
+36.                 using (var writer = new StreamWriter(@"..\..\enumeredFile.txt"))
+37.                 {
+38.                     while (!reader.EndOfStream)
+39.                     {
+40.                         writer.WriteLine("{0}. {1}", counter, reader.ReadLine());
+41.                         counter++;
+42.                     }
+43.                 }
+44.             }
+45.         }
+46.     }
+47. }
