@@ -25,7 +25,7 @@ namespace SneakySnake
             string[] moves = Console.ReadLine().Split(',').ToArray();
             snakeLength = 3;
             string output = "normal";
-            int counter = 1;
+            int counter = 0;
 
             currRow = 0;
             for (int i = 0; i < matrix.GetLength(0); i++)
@@ -40,25 +40,27 @@ namespace SneakySnake
 
             while (output == "normal")
             {
-                if (counter == moves.Length+1)
+                if (counter == moves.Length)
                 {
                     output = "stuck";
                     break;
                 }
 
-                if (counter % 5 == 0)
-                {
-                    snakeLength--;
-                }
                 if (snakeLength == 0)
                 {
                     output = "starve";
                     break;
                 }
 
-                output = MoveMenu(moves[counter-1]);
+                output = MoveMenu(moves[counter]);             
 
                 counter++;
+
+                if (counter % 5 == 0)
+                {
+                    snakeLength--;
+                }
+               
             }
 
             StateValidate(output);
@@ -235,6 +237,10 @@ namespace SneakySnake
             else if (output == "rock")
             {
                 Console.WriteLine("Sneaky is going to hit a rock at [{0},{1}]", currRow, currCol);
+            }
+            else
+            {
+                Console.WriteLine("How did you break it?");
             }
         }
     }
