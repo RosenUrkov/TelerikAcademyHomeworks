@@ -26,6 +26,7 @@ namespace SneakySnake
             snakeLength = 3;
             string output = "normal";
             int counter = 0;
+            int movesCount = 0;
 
             currRow = 0;
             for (int i = 0; i < matrix.GetLength(0); i++)
@@ -52,14 +53,16 @@ namespace SneakySnake
                     break;
                 }
 
-                output = MoveMenu(moves[counter]);             
-
-                counter++;
-
-                if (counter % 5 == 0)
+                movesCount++;
+                if (movesCount % 5 == 0)
                 {
                     snakeLength--;
                 }
+
+                output = MoveMenu(moves[counter]);             
+
+                counter++;
+                
                
             }
 
