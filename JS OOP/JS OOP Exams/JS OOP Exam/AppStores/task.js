@@ -27,12 +27,12 @@ function solve() {
             }
         },
         VALIDATE_NUMBER_LESS_THAN(value, min) {
-            if (value < min) {
+            if (value <= min) {
                 throw Error('value was less than the given minimum!');
             }
         },
         VALIDATE_NUMBER_BIGGER_THAN(value, max) {
-            if (value > max) {
+            if (value >= max) {
                 throw Error('value was greate than the given maximum!');
             }
         }
@@ -45,6 +45,21 @@ function solve() {
             return ++counter;
         }
     })();
+
+    function copyApp(app) {
+        let result;
+        const { name, description, version, rating } = app;
+
+        if (app.apps !== undefined) {
+            result = new Store(name, description, version, rating);
+            result.apps = app.apps;
+
+            return result;
+        }
+
+        result = new App(name, description, version, rating);
+        return result;
+    }
 
     class App {
         constructor(name, description, version, rating) {
@@ -82,7 +97,7 @@ function solve() {
         }
         set version(x) {
             VALIDATOR.VALIDATE_NUMBER(x);
-            VALIDATOR.VALIDATE_NUMBER_LESS_THAN(x, 1);
+            VALIDATOR.VALIDATE_NUMBER_LESS_THAN(x, 0);
 
             this._version = x;
         }
@@ -111,7 +126,7 @@ function solve() {
 
         _releaseVersion(options) {
             if (options <= this.version) {
-                throw Error('');
+                throw Error('release Error');
             }
 
             this.version = options;
@@ -122,9 +137,9 @@ function solve() {
 
         _releaseOptions(options) {
             if (!options.hasOwnProperty('version')) {
-                throw Error('');
+                throw Error('release Error');
             }
-            this._releaseVersion(options);
+            this._releaseVersion(options.version);
 
 
             if (options.hasOwnProperty('description')) {
@@ -147,19 +162,17 @@ function solve() {
 
         uploadApp(app) {
             if (!(app instanceof App)) {
-                throw Error('');
+                throw Error('upload Error');
             }
 
-            let x = this.apps.find(x => x.name === app.name);
+            let index = this.apps.findIndex(y => y.name === app.name);
 
-            if (x === undefined) {
-                let { name, description, version, rating } = app;
-                this.apps.push(new App(name, description, version, rating));
-
-                return this;
+            if (index >= 0) {
+                this.apps.splice(index, 1);
             }
 
-            x.release(app);
+            let { name, description, version, rating } = app;
+            this.apps.push(new App(name, description, version, rating));
 
             return this;
         }
@@ -238,9 +251,7 @@ function solve() {
                 throw Error('');
             }
 
-            x.forEach(y => y.id = getID());
-
-            this._apps = x;
+            this._apps = x.map(y => copyApp(y));
         }
 
         search(pattern) {
@@ -272,8 +283,6 @@ function solve() {
             let result = [],
                 app;
 
-            //result.push(...(this.apps.filter(x => x.name === name)));
-
             this.apps
                 .filter(x => x.hasOwnProperty('apps'))
                 .forEach(x => result.push(...(x.apps.filter(y => y.name === name))));
@@ -284,8 +293,12 @@ function solve() {
 
             app = result.sort((x, y) => y.version - x.version)[0];
 
-            if (this.apps.some(x => x === app)) {
+            if (this.apps.some(x => x === app || (x.name === app.name && x.version >= app.version))) {
                 return this;
+            }
+            if (this.apps.some(x => x.name === app.name && x.version < app.version)) {
+                let index = this.apps.findIndex(x => x.name === app.name);
+                this.apps.splice(index, 1);
             }
 
             app.id = getID();
@@ -306,23 +319,25 @@ function solve() {
         }
 
         update() {
-            let newApp;
 
-            this.apps.map(app => {
-                let res = this.apps
+            this.apps = this.apps.map(app => {
+                let newApp,
+                    bestApp = app;
+
+                this.apps
                     .filter(x => x.hasOwnProperty('apps'))
-                    .some(z => {
+                    .forEach(z => {
                         newApp = z.apps
-                            .sort((x, y => y.version - x.version))
+                            .sort((x, y) => y.version - x.version)
                             .find(y => y.name === app.name &&
-                                y.version > app.version);
+                                y.version > bestApp.version);
 
-                        return !!newApp;
+                        if (newApp && newApp.version > bestApp.version) {
+                            bestApp = newApp;
+                        }
                     });
 
-                if (res) {
-                    app.release(newApp);
-                }
+                return bestApp;
             });
 
             return this;
@@ -341,6 +356,3 @@ function solve() {
         }
     };
 }
-
-// Submit the code above this line in bgcoder.com
-//module.exports = solve;
