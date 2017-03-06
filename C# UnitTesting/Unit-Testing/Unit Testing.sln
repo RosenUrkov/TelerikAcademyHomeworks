@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Tests", "StudentsCoursesSchool\School.Tests\School.Tests.csproj", "{89EBA969-6691-458C-9B63-39007A17AF2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shool", "StudentsCoursesSchool\Shool\Shool.csproj", "{A928B727-AC75-4910-8C56-9F9CC8C68F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsAndCourses", "StudentsCoursesSchool\StudentsAndCourses\StudentsAndCourses.csproj", "{0DA31DA5-297D-4B08-9125-D7AE7BD79CEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SchoolCoursesStudents", "SchoolCoursesStudents", "{2ED0F3BD-0EDF-470E-81C2-ADB2DC7C3E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestTheDeckFromGameEngine", "UnitTestingDeck\UnitTestTheDeckFromGameEngine\UnitTestTheDeckFromGameEngine.csproj", "{0EDB463F-5F98-4B38-AE3C-392D67330F8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTestingDeck", "UnitTestingDeck", "{9C2A64B8-A0FD-413D-AD00-5A02F4A6DDF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deck.Tests", "UnitTestingDeck\Deck.Tests\Deck.Tests.csproj", "{8E42380A-EAE6-43F6-B358-CF09C356A503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89EBA969-6691-458C-9B63-39007A17AF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EBA969-6691-458C-9B63-39007A17AF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EBA969-6691-458C-9B63-39007A17AF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EBA969-6691-458C-9B63-39007A17AF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A928B727-AC75-4910-8C56-9F9CC8C68F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A928B727-AC75-4910-8C56-9F9CC8C68F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A928B727-AC75-4910-8C56-9F9CC8C68F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A928B727-AC75-4910-8C56-9F9CC8C68F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA31DA5-297D-4B08-9125-D7AE7BD79CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA31DA5-297D-4B08-9125-D7AE7BD79CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA31DA5-297D-4B08-9125-D7AE7BD79CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA31DA5-297D-4B08-9125-D7AE7BD79CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDB463F-5F98-4B38-AE3C-392D67330F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDB463F-5F98-4B38-AE3C-392D67330F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDB463F-5F98-4B38-AE3C-392D67330F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDB463F-5F98-4B38-AE3C-392D67330F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E42380A-EAE6-43F6-B358-CF09C356A503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E42380A-EAE6-43F6-B358-CF09C356A503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E42380A-EAE6-43F6-B358-CF09C356A503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E42380A-EAE6-43F6-B358-CF09C356A503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89EBA969-6691-458C-9B63-39007A17AF2E} = {2ED0F3BD-0EDF-470E-81C2-ADB2DC7C3E1D}
+		{A928B727-AC75-4910-8C56-9F9CC8C68F7D} = {2ED0F3BD-0EDF-470E-81C2-ADB2DC7C3E1D}
+		{0DA31DA5-297D-4B08-9125-D7AE7BD79CEC} = {2ED0F3BD-0EDF-470E-81C2-ADB2DC7C3E1D}
+		{0EDB463F-5F98-4B38-AE3C-392D67330F8C} = {9C2A64B8-A0FD-413D-AD00-5A02F4A6DDF7}
+		{8E42380A-EAE6-43F6-B358-CF09C356A503} = {9C2A64B8-A0FD-413D-AD00-5A02F4A6DDF7}
+	EndGlobalSection
+EndGlobal
