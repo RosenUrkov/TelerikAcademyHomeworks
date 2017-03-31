@@ -1,0 +1,18 @@
+canvas {
+    border: 2px solid black;
+    position: absolute;
+    width: 75%;
+}
+
+#game-canvas {
+    z-index: 1;
+    background-color: black;
+}
+
+#maze-canvas {
+    z-index: 10;
+}
+
+body {
+    overflow: hidden;
+}
