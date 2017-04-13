@@ -1,0 +1,21 @@
+{
+  "name": "homework",
+  "description": "my first spa",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "navigo": "^4.5.2",
+    "handlebars": "^4.0.5",
+    "bootstrap": "^3.3.7",
+    "sammy": "^0.7.6"
+  }
+}
