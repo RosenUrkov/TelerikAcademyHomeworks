@@ -1,0 +1,25 @@
+.btn-success {
+    margin-top: 1px;
+}
+
+.rounded {
+    border-radius: 1px;
+}
+
+.user-controls {
+    display: none;
+}
+
+.search {
+    margin-top: 15px
+}
+
+input[type=search] {
+    position: relative;
+    right: 15px;
+}
+
+#user {
+    padding-left: 45px;
+    visibility: hidden;
+}

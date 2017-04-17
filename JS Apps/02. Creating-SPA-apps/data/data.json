@@ -1,0 +1,385 @@
+{
+  "users": [
+    {
+      "username": "Minkov",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "minkov",
+      "id": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "authKey": "16655985-e510-43d4-ad1c-2388c76d1ef6FwHCPd*bP:.;Fu&:evl)RPGg"
+    },
+    {
+      "username": "Minkov3",
+      "passHash": "1234567890123456789012345678901234567890",
+      "usernameToLower": "minkov3",
+      "id": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "authKey": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73erxSIAJyVOzIEIrpMFbanscO"
+    },
+    {
+      "username": "John",
+      "passHash": "123456q",
+      "usernameToLower": "john",
+      "id": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+      "authKey": "14f0886a-26b3-45a1-98de-bce9fde7688cSnNBFpiKDqKddNolABLHzyCM"
+    },
+    {
+      "username": "John3",
+      "passHash": "123456q",
+      "usernameToLower": "john3",
+      "id": "c1876703-49e3-41b3-b293-e9dfb9261245",
+      "authKey": "c1876703-49e3-41b3-b293-e9dfb9261245yPCfAWdNirnqNoFbJXHniKfN"
+    },
+    {
+      "username": "John4",
+      "passHash": "123456q",
+      "usernameToLower": "john4",
+      "id": "1b76df3f-590f-410e-8ece-e7489886ffff",
+      "authKey": "1b76df3f-590f-410e-8ece-e7489886ffffMPAxGUCzfsKglRxakDkmgAzc"
+    },
+    {
+      "username": "John5",
+      "passHash": "123",
+      "usernameToLower": "john5",
+      "id": "16bd96f5-562a-4fc5-8fb9-f97f97faec6a",
+      "authKey": "16bd96f5-562a-4fc5-8fb9-f97f97faec6arlDZYbzUYvvqBEmDlPeBdMpH"
+    },
+    {
+      "username": "John7",
+      "passHash": "123",
+      "usernameToLower": "john7",
+      "id": "6f2569ff-3f4b-43d8-b5e6-83b0b607e5f1",
+      "authKey": "6f2569ff-3f4b-43d8-b5e6-83b0b607e5f1PhFMLXTeuRACLPZMgJURTahS"
+    },
+    {
+      "username": "",
+      "passHash": "",
+      "usernameToLower": "",
+      "id": "956af4cb-09e7-473c-9680-b060dea890e0",
+      "authKey": "956af4cb-09e7-473c-9680-b060dea890e0oziHogdeqkpHAVbkJJotOXlP"
+    },
+    {
+      "username": "asd",
+      "passHash": "fas",
+      "usernameToLower": "asd",
+      "id": "89d98cc5-a7fc-4290-8c04-ab0bf137ed67"
+    },
+    {
+      "username": "Rosen",
+      "passHash": "123",
+      "usernameToLower": "rosen",
+      "id": "d04ae785-6bd7-416e-a6f9-feb0768b3945"
+    },
+    {
+      "username": "lol",
+      "passHash": "asd",
+      "usernameToLower": "lol",
+      "id": "24b1ca8f-e1e9-417b-9034-1e45b989d1a0"
+    },
+    {
+      "username": "fasfsaf",
+      "passHash": "fsaf",
+      "usernameToLower": "fasfsaf",
+      "id": "c355ed89-18eb-4f4f-ad24-be54c8a69331"
+    },
+    {
+      "username": "ros",
+      "passHash": "123",
+      "usernameToLower": "ros",
+      "id": "c45f6707-b91f-45ea-bfa5-ae7d6c486dff"
+    },
+    {
+      "username": "asfas",
+      "passHash": "fasf",
+      "usernameToLower": "asfas",
+      "id": "3f50d0ba-17d1-4407-b770-43715b76fa2c"
+    },
+    {
+      "username": "fasf",
+      "passHash": "123",
+      "usernameToLower": "fasf",
+      "id": "cac61391-f48b-438c-a182-5cd9b7ed3cf9"
+    },
+    {
+      "username": "асд",
+      "passHash": "64г",
+      "usernameToLower": "асд",
+      "id": "5e88748a-4675-457e-81ac-255ac510030a"
+    },
+    {
+      "username": "дас",
+      "passHash": "ф2р",
+      "usernameToLower": "дас",
+      "id": "21c4f9ff-0e6b-44b6-a70d-caef44f92e99"
+    },
+    {
+      "username": "сад",
+      "passHash": "дафс",
+      "usernameToLower": "сад",
+      "id": "0600763b-91e4-403a-a7e8-020295775f98"
+    },
+    {
+      "username": "fasfa",
+      "passHash": "412",
+      "usernameToLower": "fasfa",
+      "id": "72f8afdc-91cc-4bb1-bcdc-a84f86cbe6b6"
+    },
+    {
+      "username": "das",
+      "passHash": "dasd",
+      "usernameToLower": "das",
+      "id": "ff2edd99-a344-449b-953b-0ddfca817bbd",
+      "authKey": "ff2edd99-a344-449b-953b-0ddfca817bbdEovpEbJJNhJzwcUJNdafLBEj"
+    },
+    {
+      "username": "the",
+      "passHash": "465",
+      "usernameToLower": "the",
+      "id": "cb870b4c-409f-40cc-a00f-c78676767c21",
+      "authKey": "cb870b4c-409f-40cc-a00f-c78676767c21HkrkqTEAInuysiCsTNYlsMTg"
+    },
+    {
+      "username": "uio",
+      "passHash": "987",
+      "usernameToLower": "uio",
+      "id": "503498da-9da8-4e0f-baa1-9353eb869447",
+      "authKey": "503498da-9da8-4e0f-baa1-9353eb869447JAzPrihVVqqpCDOCtJkSMmIp"
+    },
+    {
+      "username": "hea",
+      "passHash": "hea",
+      "usernameToLower": "hea",
+      "id": "5ac9f04e-bd16-47dc-9133-39e08b1852b5",
+      "authKey": "5ac9f04e-bd16-47dc-9133-39e08b1852b5WvnBCBaXnsXmgzqMCuODrief"
+    },
+    {
+      "username": "yolo",
+      "passHash": "123",
+      "usernameToLower": "yolo",
+      "id": "bb9eecc8-daa2-4d3d-bb8c-b797c1c59709",
+      "authKey": "bb9eecc8-daa2-4d3d-bb8c-b797c1c59709DZbnIbOqIwnnmzZFyjvjrztv"
+    },
+    {
+      "username": "rosen123",
+      "passHash": "123",
+      "usernameToLower": "rosen123",
+      "id": "91040b0b-d62e-4c67-bd47-e819a1bf1bc5"
+    },
+    {
+      "username": "qwert",
+      "passHash": "123",
+      "usernameToLower": "qwert",
+      "id": "755bc8f6-0b8c-4d03-affd-dd225a902a01",
+      "authKey": "755bc8f6-0b8c-4d03-affd-dd225a902a01iYMGLLpnHeIaltOGDfvNVvVy"
+    },
+    {
+      "username": "123",
+      "passHash": "123",
+      "usernameToLower": "123",
+      "id": "d9f235d1-4325-4f62-b0a7-42fc8447bc28",
+      "authKey": "d9f235d1-4325-4f62-b0a7-42fc8447bc28hPxrGUeMqKFHCloqqNdUIBcd"
+    },
+    {
+      "username": "1234",
+      "passHash": "1234",
+      "usernameToLower": "1234",
+      "id": "7671ce85-37cd-4ea5-8c9a-31176c8cf6e9",
+      "authKey": "7671ce85-37cd-4ea5-8c9a-31176c8cf6e9ltTEwIkHwYrhAOhvcrvcrVic",
+      "myCookies": [
+        {
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 23
+        },
+        {
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 23
+        },
+        {
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 23
+        },
+        {
+          "text": "Hello!",
+          "category": "Home",
+          "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+          "likes": 20,
+          "dislikes": 13,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2015-09-10T06:24:18.743Z",
+          "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
+          "hours": 0
+        },
+        {
+          "text": "Hello!",
+          "category": "Home",
+          "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+          "likes": 20,
+          "dislikes": 13,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2015-09-10T06:24:18.743Z",
+          "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
+          "hours": 0
+        }
+      ]
+    },
+    {
+      "username": "789",
+      "passHash": "789",
+      "usernameToLower": "789",
+      "id": "0b9abdc0-2506-47ff-b9b6-6829870a9635",
+      "authKey": "0b9abdc0-2506-47ff-b9b6-6829870a9635DTeIZNZJbsUzuaohNsNYnOia"
+    },
+    {
+      "username": "1234567",
+      "passHash": "1234567",
+      "usernameToLower": "1234567",
+      "id": "f02fc765-d2df-43d7-9a9c-bce9d898854e",
+      "authKey": "f02fc765-d2df-43d7-9a9c-bce9d898854eHPoFanlfcrRkbsLskTNsIBqA",
+      "myCookies": [
+        {
+          "username": "John",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:28:33.174Z",
+          "id": "83310137-e7d3-4176-8dbf-3ceb46104c73",
+          "hours": 0
+        }
+      ]
+    }
+  ],
+  "cookies": [
+    {
+      "text": "Test",
+      "category": "Home",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 11,
+      "dislikes": 15,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:30.290Z",
+      "id": "2dae28aa-ee64-4bc1-8591-29284d88c9e9"
+    },
+    {
+      "text": "May the Force with you",
+      "category": "WOrk",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 62,
+      "dislikes": 37,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:56.482Z",
+      "id": "e2fdbf82-54c3-488f-add4-9af3262c2572",
+      "hours": 9
+    },
+    {
+      "text": "Hello!",
+      "category": "Home",
+      "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "likes": 20,
+      "dislikes": 13,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-10T06:24:18.743Z",
+      "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
+      "hours": 0
+    },
+    {
+      "username": "John",
+      "passHash": "123456q",
+      "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2016-09-26T17:28:33.174Z",
+      "id": "83310137-e7d3-4176-8dbf-3ceb46104c73",
+      "hours": 0
+    },
+    {
+      "text": "John is the Man",
+      "passHash": "123456q",
+      "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2016-09-26T17:29:51.206Z",
+      "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+      "hours": 23
+    },
+    {
+      "text": "qwe",
+      "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2016-09-26T18:34:45.542Z",
+      "id": "b4a2b4f2-a43e-487e-bbfc-0b1db63977f9"
+    },
+    {
+      "text": "NEW COOKIE",
+      "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+      "likes": 1,
+      "dislikes": 1,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2016-09-26T18:35:03.006Z",
+      "id": "6f12561e-e5e5-4918-877c-7e938c127850"
+    },
+    {
+      "text": "",
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "userId": "956af4cb-09e7-473c-9680-b060dea890e0",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2017-04-16T15:10:03.116Z",
+      "id": "7f659e5d-99a1-45b4-b3b4-5fafbdb4e378"
+    },
+    {
+      "text": "asd",
+      "category": "asd",
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "userId": "7671ce85-37cd-4ea5-8c9a-31176c8cf6e9",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2017-04-17T18:58:36.569Z",
+      "id": "06d33e3a-a787-4a99-a001-106898ffe0e9"
+    },
+    {
+      "text": "Rosen",
+      "category": "Rosen",
+      "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBw00jigo0dh7Kwh9FV1FyINgEU-_VtbNmjd5VBipkNWDglyk3VUVZaok",
+      "userId": "7671ce85-37cd-4ea5-8c9a-31176c8cf6e9",
+      "likes": 32,
+      "dislikes": 12,
+      "shareDate": "2017-04-17T19:55:53.802Z",
+      "id": "1028ad1d-2784-48c8-8475-68ed49cc4c51"
+    },
+    {
+      "text": "My Cookie Bitch",
+      "category": "HoMe",
+      "img": "data:image/jpeg;base64,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",
+      "userId": "f02fc765-d2df-43d7-9a9c-bce9d898854e",
+      "likes": 70,
+      "dislikes": 0,
+      "shareDate": "2017-04-17T21:40:05.892Z",
+      "id": "b79b2c08-8d4c-4aff-91e5-a6f6e22bdab0"
+    }
+  ]
+}

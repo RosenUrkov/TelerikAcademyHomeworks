@@ -1,0 +1,20 @@
+{{#result}}
+<div class="wrapper", category="{{category}}">
+    <div class="row">
+        <h3 class="col-sm-4 col-sm-offset-4">{{text}}</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+            <img src="{{img}}" style="max-width: 100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2 col-sm-offset-4">Category: {{#if category}}{{category}}{{else}}Unknown{{/if}}</div>
+        <div class="col-sm-2">{{#if hours}}Posted {{hours}} hours ago{{/if}}</div>
+    </div>
+    <div id='rate' cookieID="{{id}}" class="row">
+        <div id="like" class="col-sm-2 col-sm-offset-4 btn btn-primary">Likes: {{likes}}</div>
+        <div id="dislike" class="col-sm-2 btn btn-danger">Dislikes: {{dislikes}}</div>
+    </div>
+</div>
+{{/result}}

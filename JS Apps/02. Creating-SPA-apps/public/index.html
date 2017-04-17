@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/stylesheet.css">
+
+    <script src="./bower_components/handlebars/handlebars.min.js"></script>
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/sammy/lib/sammy.js"></script>
+
+    <script src="./bower_components/systemjs/dist/system.js"></script>
+    <script src="./scripts/systemjs-config.js"></script>
+    <title>Fortune Cookies</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="col-sm-4 col-sm-offset-4">FORTUNE COOKIES</h1>
+            <a href="#/home" class="col-sm-1 col-sm-offset-2 btn btn-success">Home</a>
+            <a href="#/login" id='log' class="col-sm-1 btn btn-success">Login</a>
+            <a href="#/share" id="share" class="col-sm-2 col-sm-offset-2 btn btn-danger user-controls">Share cookie!</a>
+        </div>
+    </div>
+
+    <div class="content container"></div>
+</body>
+
+</html>
