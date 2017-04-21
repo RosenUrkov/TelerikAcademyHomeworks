@@ -41,7 +41,7 @@
                         break;
                     }
 
-                    T temp = sorted[j-1];
+                    T temp = sorted[j - 1];
                     sorted[j - 1] = sorted[j];
                     sorted[j] = temp;
                 }
@@ -50,12 +50,40 @@
             return sorted;
         }
 
-        public IList<T> QuickSort<T>(IList<T> collection, T start, T end) where T: IComparable<T>
+        public void QuickSort<T>(IList<T> collection, int startIndex, int endIndex) where T : IComparable<T>
         {
-            if (start.CompareTo(end) >= 0)
+            if (startIndex >= endIndex)
             {
-                return collection;
+                return;
             }
+
+            T pivot = collection[endIndex];
+            int currentIndex = startIndex - 1;
+            
+            // iterate over the collection and if the current element
+            // is smaller than the pivot place it in the left side of
+            // the array, so the bigger elements are on the right side
+            T temp;
+            for (int i = startIndex; i < endIndex; i++)
+            {
+                if (collection[i].CompareTo(pivot) < 0)
+                {
+                    currentIndex++;
+
+                    temp = collection[currentIndex];
+                    collection[currentIndex] = collection[i];
+                    collection[i] = temp;
+                }
+            }
+
+            // final swap to ensure that the pivot is placed in the
+            // middle between smaller and bigger than hem elements
+            temp = collection[currentIndex + 1];
+            collection[currentIndex + 1] = collection[endIndex];
+            collection[endIndex] = temp;
+            
+            QuickSort(collection, startIndex, currentIndex);
+            QuickSort(collection, currentIndex + 2, endIndex);
         }
     }
 }
