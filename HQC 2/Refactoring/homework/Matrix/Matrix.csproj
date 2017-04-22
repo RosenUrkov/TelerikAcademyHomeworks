@@ -37,6 +37,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsolePrinter.cs" />
+    <Compile Include="IPrinter.cs" />
     <Compile Include="MainClass.cs" />
     <Compile Include="Matrix.cs" />
   </ItemGroup>
