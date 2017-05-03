@@ -2,7 +2,6 @@ import { Requester } from 'requester';
 
 export class DataService {
     constructor() {
-        this.requester = new Requester();
         this.header = 'x-auth-key';
     }
 

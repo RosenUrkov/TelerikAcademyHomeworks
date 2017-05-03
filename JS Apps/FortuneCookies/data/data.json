@@ -1,250 +1,277 @@
 {
-    "users": [{
-            "username": "Minkov",
-            "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-            "usernameToLower": "minkov",
-            "id": "16655985-e510-43d4-ad1c-2388c76d1ef6",
-            "authKey": "16655985-e510-43d4-ad1c-2388c76d1ef6FwHCPd*bP:.;Fu&:evl)RPGg"
+  "users": [
+    {
+      "username": "Minkov",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "minkov",
+      "id": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "authKey": "16655985-e510-43d4-ad1c-2388c76d1ef6FwHCPd*bP:.;Fu&:evl)RPGg"
+    },
+    {
+      "username": "Minkov3",
+      "passHash": "1234567890123456789012345678901234567890",
+      "usernameToLower": "minkov3",
+      "id": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "authKey": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73erxSIAJyVOzIEIrpMFbanscO"
+    },
+    {
+      "username": "John",
+      "passHash": "123456q",
+      "usernameToLower": "john",
+      "id": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+      "authKey": "14f0886a-26b3-45a1-98de-bce9fde7688cSnNBFpiKDqKddNolABLHzyCM"
+    },
+    {
+      "username": "John3",
+      "passHash": "123456q",
+      "usernameToLower": "john3",
+      "id": "c1876703-49e3-41b3-b293-e9dfb9261245",
+      "authKey": "c1876703-49e3-41b3-b293-e9dfb9261245yPCfAWdNirnqNoFbJXHniKfN"
+    },
+    {
+      "username": "John4",
+      "passHash": "123456q",
+      "usernameToLower": "john4",
+      "id": "1b76df3f-590f-410e-8ece-e7489886ffff",
+      "authKey": "1b76df3f-590f-410e-8ece-e7489886ffffMPAxGUCzfsKglRxakDkmgAzc"
+    },
+    {
+      "username": "John5",
+      "passHash": "123",
+      "usernameToLower": "john5",
+      "id": "16bd96f5-562a-4fc5-8fb9-f97f97faec6a",
+      "authKey": "16bd96f5-562a-4fc5-8fb9-f97f97faec6arlDZYbzUYvvqBEmDlPeBdMpH"
+    },
+    {
+      "username": "John7",
+      "passHash": "123",
+      "usernameToLower": "john7",
+      "id": "6f2569ff-3f4b-43d8-b5e6-83b0b607e5f1",
+      "authKey": "6f2569ff-3f4b-43d8-b5e6-83b0b607e5f1PhFMLXTeuRACLPZMgJURTahS"
+    },
+    {
+      "username": "1234",
+      "passHash": "1234",
+      "usernameToLower": "1234",
+      "id": "7671ce85-37cd-4ea5-8c9a-31176c8cf6e9",
+      "authKey": "7671ce85-37cd-4ea5-8c9a-31176c8cf6e9ltTEwIkHwYrhAOhvcrvcrVic",
+      "myCookies": [
+        {
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 23
         },
         {
-            "username": "Minkov3",
-            "passHash": "1234567890123456789012345678901234567890",
-            "usernameToLower": "minkov3",
-            "id": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
-            "authKey": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73erxSIAJyVOzIEIrpMFbanscO"
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 23
         },
         {
-            "username": "John",
-            "passHash": "123456q",
-            "usernameToLower": "john",
-            "id": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-            "authKey": "14f0886a-26b3-45a1-98de-bce9fde7688cSnNBFpiKDqKddNolABLHzyCM"
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 23
         },
         {
-            "username": "John3",
-            "passHash": "123456q",
-            "usernameToLower": "john3",
-            "id": "c1876703-49e3-41b3-b293-e9dfb9261245",
-            "authKey": "c1876703-49e3-41b3-b293-e9dfb9261245yPCfAWdNirnqNoFbJXHniKfN"
+          "text": "Hello!",
+          "category": "Home",
+          "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+          "likes": 20,
+          "dislikes": 13,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2015-09-10T06:24:18.743Z",
+          "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
+          "hours": 0
         },
         {
-            "username": "John4",
-            "passHash": "123456q",
-            "usernameToLower": "john4",
-            "id": "1b76df3f-590f-410e-8ece-e7489886ffff",
-            "authKey": "1b76df3f-590f-410e-8ece-e7489886ffffMPAxGUCzfsKglRxakDkmgAzc"
+          "text": "Hello!",
+          "category": "Home",
+          "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+          "likes": 20,
+          "dislikes": 13,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2015-09-10T06:24:18.743Z",
+          "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
+          "hours": 0
         },
         {
-            "username": "John5",
-            "passHash": "123",
-            "usernameToLower": "john5",
-            "id": "16bd96f5-562a-4fc5-8fb9-f97f97faec6a",
-            "authKey": "16bd96f5-562a-4fc5-8fb9-f97f97faec6arlDZYbzUYvvqBEmDlPeBdMpH"
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 17
         },
         {
-            "username": "John7",
-            "passHash": "123",
-            "usernameToLower": "john7",
-            "id": "6f2569ff-3f4b-43d8-b5e6-83b0b607e5f1",
-            "authKey": "6f2569ff-3f4b-43d8-b5e6-83b0b607e5f1PhFMLXTeuRACLPZMgJURTahS"
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 17
         },
         {
-            "username": "1234",
-            "passHash": "1234",
-            "usernameToLower": "1234",
-            "id": "7671ce85-37cd-4ea5-8c9a-31176c8cf6e9",
-            "authKey": "7671ce85-37cd-4ea5-8c9a-31176c8cf6e9ltTEwIkHwYrhAOhvcrvcrVic",
-            "myCookies": [{
-                    "text": "John is the Man",
-                    "passHash": "123456q",
-                    "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                    "likes": 0,
-                    "dislikes": 0,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2016-09-26T17:29:51.206Z",
-                    "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-                    "hours": 23
-                },
-                {
-                    "text": "John is the Man",
-                    "passHash": "123456q",
-                    "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                    "likes": 0,
-                    "dislikes": 0,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2016-09-26T17:29:51.206Z",
-                    "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-                    "hours": 23
-                },
-                {
-                    "text": "John is the Man",
-                    "passHash": "123456q",
-                    "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                    "likes": 0,
-                    "dislikes": 0,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2016-09-26T17:29:51.206Z",
-                    "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-                    "hours": 23
-                },
-                {
-                    "text": "Hello!",
-                    "category": "Home",
-                    "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
-                    "likes": 20,
-                    "dislikes": 13,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2015-09-10T06:24:18.743Z",
-                    "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
-                    "hours": 0
-                },
-                {
-                    "text": "Hello!",
-                    "category": "Home",
-                    "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
-                    "likes": 20,
-                    "dislikes": 13,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2015-09-10T06:24:18.743Z",
-                    "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
-                    "hours": 0
-                },
-                {
-                    "text": "John is the Man",
-                    "passHash": "123456q",
-                    "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                    "likes": 0,
-                    "dislikes": 0,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2016-09-26T17:29:51.206Z",
-                    "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-                    "hours": 17
-                },
-                {
-                    "text": "John is the Man",
-                    "passHash": "123456q",
-                    "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                    "likes": 0,
-                    "dislikes": 0,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2016-09-26T17:29:51.206Z",
-                    "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-                    "hours": 17
-                },
-                {
-                    "text": "John is the Man",
-                    "passHash": "123456q",
-                    "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                    "likes": 0,
-                    "dislikes": 0,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2016-09-26T17:29:51.206Z",
-                    "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-                    "hours": 17
-                },
-                {
-                    "text": "John is the Man",
-                    "passHash": "123456q",
-                    "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                    "likes": 0,
-                    "dislikes": 0,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2016-09-26T17:29:51.206Z",
-                    "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-                    "hours": 17
-                },
-                {
-                    "text": "John is the Man",
-                    "passHash": "123456q",
-                    "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                    "likes": 0,
-                    "dislikes": 0,
-                    "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                    "shareDate": "2016-09-26T17:29:51.206Z",
-                    "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-                    "hours": 17
-                }
-            ]
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 17
         },
         {
-            "username": "789",
-            "passHash": "789",
-            "usernameToLower": "789",
-            "id": "0b9abdc0-2506-47ff-b9b6-6829870a9635",
-            "authKey": "0b9abdc0-2506-47ff-b9b6-6829870a9635DTeIZNZJbsUzuaohNsNYnOia"
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 17
         },
         {
-            "username": "1234567",
-            "passHash": "1234567",
-            "usernameToLower": "1234567",
-            "id": "f02fc765-d2df-43d7-9a9c-bce9d898854e",
-            "authKey": "f02fc765-d2df-43d7-9a9c-bce9d898854eHPoFanlfcrRkbsLskTNsIBqA",
-            "myCookies": [{
-                "username": "John",
-                "passHash": "123456q",
-                "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-                "likes": 0,
-                "dislikes": 0,
-                "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-                "shareDate": "2016-09-26T17:28:33.174Z",
-                "id": "83310137-e7d3-4176-8dbf-3ceb46104c73",
-                "hours": 0
-            }]
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 17
+        },
+        {
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 18
+        },
+        {
+          "text": "John is the Man",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:29:51.206Z",
+          "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+          "hours": 18
         }
-    ],
-    "cookies": [{
-            "text": "Test",
-            "category": "Home",
-            "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
-            "likes": 11,
-            "dislikes": 15,
-            "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-            "shareDate": "2015-09-09T14:53:30.290Z",
-            "id": "2dae28aa-ee64-4bc1-8591-29284d88c9e9"
-        },
+      ]
+    },
+    {
+      "username": "789",
+      "passHash": "789",
+      "usernameToLower": "789",
+      "id": "0b9abdc0-2506-47ff-b9b6-6829870a9635",
+      "authKey": "0b9abdc0-2506-47ff-b9b6-6829870a9635DTeIZNZJbsUzuaohNsNYnOia"
+    },
+    {
+      "username": "1234567",
+      "passHash": "1234567",
+      "usernameToLower": "1234567",
+      "id": "f02fc765-d2df-43d7-9a9c-bce9d898854e",
+      "authKey": "f02fc765-d2df-43d7-9a9c-bce9d898854eHPoFanlfcrRkbsLskTNsIBqA",
+      "myCookies": [
         {
-            "text": "May the Force with you",
-            "category": "WOrk",
-            "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
-            "likes": 62,
-            "dislikes": 37,
-            "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-            "shareDate": "2015-09-09T14:53:56.482Z",
-            "id": "e2fdbf82-54c3-488f-add4-9af3262c2572",
-            "hours": 9
-        },
-        {
-            "text": "Hello!",
-            "category": "Home",
-            "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
-            "likes": 20,
-            "dislikes": 13,
-            "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-            "shareDate": "2015-09-10T06:24:18.743Z",
-            "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
-            "hours": 0
-        },
-        {
-            "username": "John",
-            "passHash": "123456q",
-            "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-            "likes": 0,
-            "dislikes": 0,
-            "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-            "shareDate": "2016-09-26T17:28:33.174Z",
-            "id": "83310137-e7d3-4176-8dbf-3ceb46104c73",
-            "hours": 0
-        },
-        {
-            "text": "John is the Man",
-            "passHash": "123456q",
-            "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
-            "likes": 0,
-            "dislikes": 0,
-            "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
-            "shareDate": "2016-09-26T17:29:51.206Z",
-            "id": "593ab347-78f2-4069-9030-d7b628bec08d",
-            "hours": 17
+          "username": "John",
+          "passHash": "123456q",
+          "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+          "likes": 0,
+          "dislikes": 0,
+          "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+          "shareDate": "2016-09-26T17:28:33.174Z",
+          "id": "83310137-e7d3-4176-8dbf-3ceb46104c73",
+          "hours": 0
         }
-    ]
+      ]
+    }
+  ],
+  "cookies": [
+    {
+      "text": "Test",
+      "category": "Home",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 11,
+      "dislikes": 15,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:30.290Z",
+      "id": "2dae28aa-ee64-4bc1-8591-29284d88c9e9"
+    },
+    {
+      "text": "May the Force with you",
+      "category": "WOrk",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 62,
+      "dislikes": 37,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:56.482Z",
+      "id": "e2fdbf82-54c3-488f-add4-9af3262c2572",
+      "hours": 9
+    },
+    {
+      "text": "Hello!",
+      "category": "Home",
+      "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "likes": 20,
+      "dislikes": 13,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-10T06:24:18.743Z",
+      "id": "ea91a233-bcf3-48b6-933f-05857f4aea87",
+      "hours": 0
+    },
+    {
+      "username": "John",
+      "passHash": "123456q",
+      "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2016-09-26T17:28:33.174Z",
+      "id": "83310137-e7d3-4176-8dbf-3ceb46104c73",
+      "hours": 0
+    },
+    {
+      "text": "John is the Man",
+      "passHash": "123456q",
+      "userId": "14f0886a-26b3-45a1-98de-bce9fde7688c",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2016-09-26T17:29:51.206Z",
+      "id": "593ab347-78f2-4069-9030-d7b628bec08d",
+      "hours": 18
+    }
+  ]
 }

@@ -26,12 +26,10 @@ const controller = new Controller(),
 $('.content')
     .on('click', '#register', () => controller.registerUser())
     .on('click', '#sign-in', () => controller.loginUser())
-
-.on('click', '#users', () => controller.getUsers())
+    .on('click', '#users', () => controller.getUsers())
     .on('click', '#categories', () => controller.getCategories())
     .on('click', '#search', () => window.location.hash = `#/home?category=${$('input[type="search"]').val()}`)
-
-.on('click', '#add-cookie', () => controller.share())
+    .on('click', '#add-cookie', () => controller.share())
     .on('click', '#rate', (event) => {
         controller.rateCookie($(event.currentTarget).attr('cookieID'), $(event.target).attr('id'));
         controller.home();
