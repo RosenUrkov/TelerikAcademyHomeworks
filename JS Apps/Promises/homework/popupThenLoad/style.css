@@ -1,0 +1,14 @@
+div {
+    font-size: 36px;
+}
+
+.popup {
+    width: 200px;
+    display: none;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}

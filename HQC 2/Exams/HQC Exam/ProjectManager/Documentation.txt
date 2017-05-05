@@ -1,0 +1,11 @@
+﻿Bugs:
+
+#1 - ModelsFactory - CreateUser() - username and email passed to user constructor was swapped
+#2 - Task - ToString() - owner is not printed
+#3 - CommandsFactory - CreateCommandFromString() - create user command case is missing
+#4 - FileLogger - Error() - method was commented
+
+
+Bottleneck:
+
+#1 CommandFactory -> BuildCommand - pointless operations and cycling
