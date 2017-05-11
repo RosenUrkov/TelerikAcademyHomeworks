@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="11601316-9a9c-4e97-9374-52e5838d0509" Title="DevelopmentTools" Url="html/0a3d5a93-dc2b-ea3c-1de0-5c7d67d7381d.htm">
+    <HelpTOCNode Id="b851d725-5bb8-41a2-9633-4eca352320cb" Title="Startup Class" Url="html/9827d0b1-f146-5c79-6631-45d82f3cfbb9.htm">
+      <HelpTOCNode Title="Startup Constructor " Url="html/b2df1def-dc66-f00e-5306-48e7c2fee923.htm" />
+      <HelpTOCNode Id="2c1ee031-679b-440b-aa85-29570f20076f" Title="Startup Methods" Url="html/d8cbb73e-39c7-4bab-b712-58637d92b01a.htm">
+        <HelpTOCNode Title="Main Method " Url="html/52dd37ab-5156-39c7-f59c-a956baa7eef8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

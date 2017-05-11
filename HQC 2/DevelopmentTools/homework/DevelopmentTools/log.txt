@@ -1,0 +1,4 @@
+2017-05-11 22:03:44,704 [1] ERROR - Hello, world!
+2017-05-11 22:17:51,167 [1] ERROR - Hello, world!
+2017-05-11 22:18:16,742 [1] ERROR - Hello, world!
+2017-05-11 22:27:08,777 [1] ERROR - Hello, world!

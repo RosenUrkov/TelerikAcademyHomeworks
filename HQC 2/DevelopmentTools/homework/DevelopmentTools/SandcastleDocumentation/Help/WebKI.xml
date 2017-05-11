@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="DevelopmentTools namespace" Url="html/0a3d5a93-dc2b-ea3c-1de0-5c7d67d7381d.htm" />
+  <HelpKINode Title="DevelopmentTools.Startup class" Url="html/9827d0b1-f146-5c79-6631-45d82f3cfbb9.htm" />
+  <HelpKINode Title="Main method" Url="html/52dd37ab-5156-39c7-f59c-a956baa7eef8.htm" />
+  <HelpKINode Title="Startup class">
+    <HelpKINode Title="Startup Class" Url="html/9827d0b1-f146-5c79-6631-45d82f3cfbb9.htm" />
+    <HelpKINode Title="about Startup class" Url="html/9827d0b1-f146-5c79-6631-45d82f3cfbb9.htm" />
+    <HelpKINode Title="constructor" Url="html/b2df1def-dc66-f00e-5306-48e7c2fee923.htm" />
+    <HelpKINode Title="methods" Url="html/d8cbb73e-39c7-4bab-b712-58637d92b01a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Startup.Main method" Url="html/52dd37ab-5156-39c7-f59c-a956baa7eef8.htm" />
+  <HelpKINode Title="Startup.Startup constructor" Url="html/b2df1def-dc66-f00e-5306-48e7c2fee923.htm" />
+</HelpKI>
