@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album name="IDK">
+    <artist>AC DC</artist>
+    <year>2000</year>
+    <price>100</price>
+    <songs>
+      <song>first</song>
+      <song>second</song>
+      <song>third</song>
+    </songs>
+  </album>
+  <album name="IDK2">
+    <artist>T. Aleksandrova</artist>
+    <year>2016</year>
+    <price>220</price>
+    <songs>
+      <song>first</song>
+      <song>forth</song>
+    </songs>
+  </album>
+</catalogue>

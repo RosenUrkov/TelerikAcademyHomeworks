@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<students xmlns:students>
+    <student name="Pesho">
+        <age>20</age>
+        <sex>Male</sex>
+        <grades>
+            <grade>2</grade>
+            <grade>3</grade>
+            <grade>6</grade>
+        </grades>
+    </student>
+    <student name="Ivan">
+        <age>21</age>
+        <sex>Male</sex>
+        <grades>
+            <grade>4</grade>
+            <grade>5</grade>
+        </grades>    
+    </student>
+</students>

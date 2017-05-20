@@ -1,0 +1,60 @@
+﻿
+---------------------------------
+Year: 2014,
+TransmissionType: Manual,
+ManufacturerName: Mazda,
+Model: 6 Skyactiv,
+Price: 60000,
+Dealer: 
+_________________________________
+Name: Star Motors,
+City: Sofia
+_________________________________
+
+---------------------------------
+
+
+---------------------------------
+Year: 2008,
+TransmissionType: Automatic,
+ManufacturerName: BMW,
+Model: 320i Cabrio,
+Price: 30000,
+Dealer: 
+_________________________________
+Name: MM Auto,
+City: Sofia
+_________________________________
+
+---------------------------------
+
+
+---------------------------------
+Year: 2003,
+TransmissionType: Manual,
+ManufacturerName: Renaut,
+Model: Clio 1.4,
+Price: 5500,
+Dealer: 
+_________________________________
+Name: T ������,
+City: Sofia
+_________________________________
+
+---------------------------------
+
+
+---------------------------------
+Year: 1997,
+TransmissionType: Manual,
+ManufacturerName: Opel,
+Model: Tigra,
+Price: 5000,
+Dealer: 
+_________________________________
+Name: TA ������,
+City: Sofia
+_________________________________
+
+---------------------------------
+

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCLC-vbm7OWvpbqzXaoAMGGw"/>
+ <id>yt:channel:UCLC-vbm7OWvpbqzXaoAMGGw</id>
+ <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+ <title>Telerik Academy</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw"/>
+ <author>
+  <name>Telerik Academy</name>
+  <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+ </author>
+ <published>2011-06-24T15:53:13+00:00</published>
+ <entry>
+  <id>yt:video:4s0f6kqQl-0</id>
+  <yt:videoId>4s0f6kqQl-0</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Бази от данни: Database Modeling</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4s0f6kqQl-0"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-19T16:41:58+00:00</published>
+  <updated>2017-05-20T00:07:09+00:00</updated>
+  <media:group>
+   <media:title>Бази от данни: Database Modeling</media:title>
+   <media:content url="https://www.youtube.com/v/4s0f6kqQl-0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4s0f6kqQl-0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Database Modeling
+Курс: Бази от данни (май 2017)
+Лектор: Мартин Вешев
+Дата: 19 май 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="48"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VJCANxBPXtk</id>
+  <yt:videoId>VJCANxBPXtk</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Бази от данни: MS SQL Server</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=VJCANxBPXtk"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-19T16:11:28+00:00</published>
+  <updated>2017-05-19T20:20:11+00:00</updated>
+  <media:group>
+   <media:title>Бази от данни: MS SQL Server</media:title>
+   <media:content url="https://www.youtube.com/v/VJCANxBPXtk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VJCANxBPXtk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: MS SQL Server
+Курс: Бази от данни (май 2017)
+Лектор: Мартин Вешев
+Дата: 19 май 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="39"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kZs9dMlkd5s</id>
+  <yt:videoId>kZs9dMlkd5s</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Бази от данни: PostgreSQL Overview</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kZs9dMlkd5s"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-19T16:06:33+00:00</published>
+  <updated>2017-05-20T03:48:06+00:00</updated>
+  <media:group>
+   <media:title>Бази от данни: PostgreSQL Overview</media:title>
+   <media:content url="https://www.youtube.com/v/kZs9dMlkd5s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kZs9dMlkd5s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: PostgreSQL Overview
+Курс: Бази от данни (май 2017)
+Лектор: Мартин Вешев
+Дата: 19 май 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="53"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:OK39mwl2k_U</id>
+  <yt:videoId>OK39mwl2k_U</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>SOLID и други принципи</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OK39mwl2k_U"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-19T08:34:31+00:00</published>
+  <updated>2017-05-20T04:43:31+00:00</updated>
+  <media:group>
+   <media:title>SOLID и други принципи</media:title>
+   <media:content url="https://www.youtube.com/v/OK39mwl2k_U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OK39mwl2k_U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: SOLID и други принципи
+Курс: Шаблони за дизайн
+Лектор: Виктор Цветков
+Дата: 16 май 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="133"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PwBDRjMtJII</id>
+  <yt:videoId>PwBDRjMtJII</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Въведение в курса</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PwBDRjMtJII"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-19T07:54:11+00:00</published>
+  <updated>2017-05-20T04:18:47+00:00</updated>
+  <media:group>
+   <media:title>Въведение в курса</media:title>
+   <media:content url="https://www.youtube.com/v/PwBDRjMtJII?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PwBDRjMtJII/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Въведение в курса
+Курс: Шаблони за дизайн
+Лектор: Виктор Цветков
+Дата: 16 май 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="174"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aTB4Ea5CEUE</id>
+  <yt:videoId>aTB4Ea5CEUE</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Примерен IT тест - ден 2</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aTB4Ea5CEUE"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-16T15:01:19+00:00</published>
+  <updated>2017-05-17T04:46:44+00:00</updated>
+  <media:group>
+   <media:title>Примерен IT тест - ден 2</media:title>
+   <media:content url="https://www.youtube.com/v/aTB4Ea5CEUE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aTB4Ea5CEUE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Примерен IT тест - ден 2
+Курс: Подготовка за НОИТ
+Лектор: Кристиян Цъклев
+Дата: 5 май 2017
+
+Уебсайт на Телерик Академия: https://telerikacademy.com
+
+Следете за предстоящи обучения на Телерик Академия във Facebook: https://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="114"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PLb33WoQZKo</id>
+  <yt:videoId>PLb33WoQZKo</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Примерен IT тест - ден 1</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PLb33WoQZKo"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-16T14:53:51+00:00</published>
+  <updated>2017-05-18T20:41:39+00:00</updated>
+  <media:group>
+   <media:title>Примерен IT тест - ден 1</media:title>
+   <media:content url="https://www.youtube.com/v/PLb33WoQZKo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PLb33WoQZKo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Примерен IT тест - ден 1
+Курс: Подготовка за НОИТ
+Лектор: Кристиян Цъклев
+Дата: 4 май 2017
+
+Уебсайт на Телерик Академия: https://telerikacademy.com
+
+Следете за предстоящи обучения на Телерик Академия във Facebook: https://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="169"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Yc75t8XVUBQ</id>
+  <yt:videoId>Yc75t8XVUBQ</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Бази от данни: XML в .NET</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Yc75t8XVUBQ"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-16T08:58:41+00:00</published>
+  <updated>2017-05-19T07:09:02+00:00</updated>
+  <media:group>
+   <media:title>Бази от данни: XML в .NET</media:title>
+   <media:content url="https://www.youtube.com/v/Yc75t8XVUBQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Yc75t8XVUBQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: XML в .NET
+Курс: Бази от данни май 2017
+Лектор: Дончо Минков
+Дата: 15 май 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="223"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Rs1kWatY1t8</id>
+  <yt:videoId>Rs1kWatY1t8</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Бази от данни: JSON в .NET</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Rs1kWatY1t8"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-15T16:38:41+00:00</published>
+  <updated>2017-05-16T04:43:37+00:00</updated>
+  <media:group>
+   <media:title>Бази от данни: JSON в .NET</media:title>
+   <media:content url="https://www.youtube.com/v/Rs1kWatY1t8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Rs1kWatY1t8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: JSON в .NET
+Курс: Бази от данни май 2017
+Лектор: Дончо Минков
+Дата: 15 май 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="268"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2dstYdXupV4</id>
+  <yt:videoId>2dstYdXupV4</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Бази от данни: Основи на XML</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2dstYdXupV4"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-15T16:37:40+00:00</published>
+  <updated>2017-05-17T06:00:37+00:00</updated>
+  <media:group>
+   <media:title>Бази от данни: Основи на XML</media:title>
+   <media:content url="https://www.youtube.com/v/2dstYdXupV4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2dstYdXupV4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Основи на XML
+Курс: Бази от данни май 2017
+Лектор: Дончо Минков
+Дата: 15 май 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="250"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tIRcT8af8C4</id>
+  <yt:videoId>tIRcT8af8C4</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Бази от данни: Въведение в курса</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tIRcT8af8C4"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-15T16:13:13+00:00</published>
+  <updated>2017-05-16T09:36:20+00:00</updated>
+  <media:group>
+   <media:title>Бази от данни: Въведение в курса</media:title>
+   <media:content url="https://www.youtube.com/v/tIRcT8af8C4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tIRcT8af8C4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Въведение в курса
+Курс: Бази от данни май 2017
+Лектор: Дончо Минков
+Дата: 15 май 2017 г.
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="350"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:oFcFfiChizE</id>
+  <yt:videoId>oFcFfiChizE</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Unit testing - Live demo</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=oFcFfiChizE"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-05-03T11:27:31+00:00</published>
+  <updated>2017-05-16T18:30:16+00:00</updated>
+  <media:group>
+   <media:title>Unit testing - Live demo</media:title>
+   <media:content url="https://www.youtube.com/v/oFcFfiChizE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/oFcFfiChizE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Unit testing - Live demo
+Курс: JavaScript приложения
+Лектор: Кристиян Цъклев
+Дата: 2 май 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="347"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:H-6OKndGfjc</id>
+  <yt:videoId>H-6OKndGfjc</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Q&amp;A Сесия</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=H-6OKndGfjc"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-04-28T17:58:18+00:00</published>
+  <updated>2017-05-03T06:53:50+00:00</updated>
+  <media:group>
+   <media:title>Q&amp;A Сесия</media:title>
+   <media:content url="https://www.youtube.com/v/H-6OKndGfjc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/H-6OKndGfjc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Q&amp;A Сесия
+Курс: Качествен програмен код - част 2
+Лектор: Мартин Вешев, Стивън Цветков, Виктор Цветков
+Дата: 28 април 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="281"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:o8RKH0Gi_Ls</id>
+  <yt:videoId>o8RKH0Gi_Ls</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Unit testing basics - Mocha, Chai, Jasmine</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=o8RKH0Gi_Ls"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-04-28T17:55:36+00:00</published>
+  <updated>2017-05-16T18:30:40+00:00</updated>
+  <media:group>
+   <media:title>Unit testing basics - Mocha, Chai, Jasmine</media:title>
+   <media:content url="https://www.youtube.com/v/o8RKH0Gi_Ls?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/o8RKH0Gi_Ls/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Unit testing basics - Mocha, Chai, Jasmine
+Курс: JavaScript приложения
+Лектор: Кристиян Цъклев
+Дата: 27 април 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="340"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0Kw98DXVcqo</id>
+  <yt:videoId>0Kw98DXVcqo</yt:videoId>
+  <yt:channelId>UCLC-vbm7OWvpbqzXaoAMGGw</yt:channelId>
+  <title>Unit testing - Spies and Mocks with Sinon</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0Kw98DXVcqo"/>
+  <author>
+   <name>Telerik Academy</name>
+   <uri>https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw</uri>
+  </author>
+  <published>2017-04-28T17:37:49+00:00</published>
+  <updated>2017-04-28T19:27:52+00:00</updated>
+  <media:group>
+   <media:title>Unit testing - Spies and Mocks with Sinon</media:title>
+   <media:content url="https://www.youtube.com/v/0Kw98DXVcqo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0Kw98DXVcqo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Лекция: Unit testing - Spies and Mocks with Sinon
+Курс: JavaScript приложения
+Лектор: Кристиян Цъклев
+Дата: 27 април 2017
+
+Уебсайт на „Академията на Телерик”: http://telerikacademy.com
+
+Следете за предстоящи обучения на „Академията на Телерик” във Facebook: http://www.facebook.com/TelerikAcademy.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="212"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
