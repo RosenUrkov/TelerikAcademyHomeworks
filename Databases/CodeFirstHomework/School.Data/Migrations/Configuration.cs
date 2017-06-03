@@ -1,12 +1,9 @@
 namespace School.Data.Migrations
 {
-    using System;
-    using System.Data.Entity;
+    using School.Models;
     using System.Data.Entity.Migrations;
-    using System.Linq;
-    using School.Data;
 
-    public sealed class Configuration : DbMigrationsConfiguration<SchoolContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<SchoolContext>
     {
         public Configuration()
         {
@@ -15,7 +12,27 @@ namespace School.Data.Migrations
 
         protected override void Seed(SchoolContext context)
         {
-            
+            context.Students.AddOrUpdate(student => student.FirstName,
+                new Student()
+                {
+                    FirstName = "Pesho",
+                    LastName = "Peshov",
+                    Number = 5,
+                    City = new City()
+                    {
+                        Name = "Sofia"
+                    }
+                });
+
+            context.Courses.AddOrUpdate(course => course.Name,
+                new Course()
+                {
+                    Name = "Databases",
+                    City = new City()
+                    {
+                        Name = "Plovdiv"
+                    }
+                });
         }
     }
 }

@@ -2,8 +2,8 @@
 {
     public enum SubjectType
     {
-        Math,
-        Physics,
-        Music
+        Math = 1,
+        Physics = 2,
+        Music = 3
     }
 }

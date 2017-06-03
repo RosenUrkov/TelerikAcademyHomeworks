@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="City.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="Homework.cs" />
     <Compile Include="Material.cs" />

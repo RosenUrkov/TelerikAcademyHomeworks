@@ -4,17 +4,19 @@
     using School.Models;
     using System.Data.Entity;
     using School.Data.Migrations;
+    using System.Linq;
+    using System;
 
     public class Startup
     {
         public static void Main(string[] args)
         {
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<SchoolContext, Configuration>());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<SchoolContext, Configuration>());
 
-            var context = new SchoolContext();
-
-            context.Students.Add(new Student() { Name = "Ivan" });
-            context.SaveChanges();
+            using (var context = new SchoolContext())
+            {
+                context.Students.ToList();
+            }
         }
     }
 }

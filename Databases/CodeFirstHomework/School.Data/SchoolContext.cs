@@ -17,5 +17,7 @@
         public IDbSet<Homework> Homeworks { get; set; }
 
         public IDbSet<Material> Materials { get; set; }
+
+        public IDbSet<City> Cities { get; set; }
     }
 }
