@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StrawberryAdventure.Characters.Character" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAQAAIAEAACAAAAABgAAAAI=</HashCode>
+      <FileName>Characters\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Characters.Humans.Assassin" Collapsed="true">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Humans\Assassin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Characters.Humans.Human" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Humans\Human.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Characters.Humans.Tank" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Humans\Tank.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Characters.Humans.Warrior" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Humans\Warrior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Characters.NPCs.Cyclops" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\NPCs\Cyclops.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Characters.NPCs.Golem" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\NPCs\Golem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Characters.NPCs.NPC" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Characters\NPCs\NPC.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Characters.NPCs.Wolf" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\NPCs\Wolf.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Engine.Game" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAABABAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrawberryAdventure.Engine.GameEngine" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABECAAAAAAAAAABAEAAAAAAACAAAACAABAAAA=</HashCode>
+      <FileName>Engine\GameEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrawberryAdventure.Engine.Map" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAgBAAAAAAACACAAAAAAAAAAAAABAAAAAAABA=</HashCode>
+      <FileName>Engine\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrawberryAdventure.Items.Armor" Collapsed="true">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Armor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Items.Item" Collapsed="true">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAACQAAAIAAAAA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Items.Shield" Collapsed="true">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Shield.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Items.Weapon" Collapsed="true">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StrawberryAdventure.Startup" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrawberryAdventure.Utils.Generator" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAEAAAIAAAAAA=</HashCode>
+      <FileName>Utils\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrawberryAdventure.Utils.InvalidGameValueException" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\InvalidGameValueException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrawberryAdventure.Utils.Validator" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Utils\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StrawberryAdventure.Utils.Constants" Collapsed="true">
+    <Position X="18.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBSAAQFgAAIksAACAAAhqABCkBDACwClEgAAARCgAI=</HashCode>
+      <FileName>Utils\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="StrawberryAdventure.Contracts.ICharacter" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAQAAIAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Contracts\ICharacter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StrawberryAdventure.Contracts.IGame" Collapsed="true">
+    <Position X="18.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IGame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StrawberryAdventure.Contracts.IHuman" Collapsed="true">
+    <Position X="14.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IHuman.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StrawberryAdventure.Contracts.IItem" Collapsed="true">
+    <Position X="20.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAACQAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StrawberryAdventure.Contracts.INPC" Collapsed="true">
+    <Position X="12.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Contracts\INPC.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="StrawberryAdventure.Enums.HumanType" Collapsed="true">
+    <Position X="18.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Enums\HumanType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StrawberryAdventure.Enums.ItemType" Collapsed="true">
+    <Position X="20.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StrawberryAdventure.Enums.MapObjectType" Collapsed="true">
+    <Position X="22" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAQAAAAEIAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\MapObjectType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StrawberryAdventure.Enums.NPCType" Collapsed="true">
+    <Position X="18.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Enums\NPCType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StrawberryAdventure.Enums.StatType" Collapsed="true">
+    <Position X="20.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Enums\StatType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
