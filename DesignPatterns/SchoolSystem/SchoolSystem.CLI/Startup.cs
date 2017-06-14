@@ -11,7 +11,7 @@ namespace SchoolSystem.Cli
         {
             var kernel = new StandardKernel(new SchoolSystemModule());
 
-            var engine = kernel.Get<IEngine>();
+            var engine = kernel.Get<IEngine>(SchoolSystemModule.EngineName);
             engine.Start();
         }
     }

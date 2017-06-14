@@ -20,6 +20,8 @@ namespace SchoolSystem.Cli
 {
     public class SchoolSystemModule : NinjectModule
     {
+        public const string EngineName = "Engine";
+
         public const string CreateStudentCommandName = "CreateStudent";
         public const string CreateTeacherCommandName = "CreateTeacher";
         public const string RemoveStudentCommandName = "RemoveStudent";
@@ -36,6 +38,7 @@ namespace SchoolSystem.Cli
                 .BindDefaultInterface();
             });
 
+            this.Bind<IEngine>().To<Engine>().InSingletonScope().Named(EngineName);
             this.Bind<ISchoolSystem>().To<School>().InSingletonScope();
 
             this.Bind<ICommand>().To<CreateStudentCommand>().InSingletonScope().Named(CreateStudentCommandName);
