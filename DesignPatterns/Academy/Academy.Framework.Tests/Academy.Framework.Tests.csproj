@@ -49,10 +49,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Adding\AddStudentToCourseCommandTests.cs" />
+    <Compile Include="Commands\Creating\CreateCourseCommandTests.cs" />
+    <Compile Include="Commands\Listing\ListUsersCommandTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Academy.Framework\Academy.Framework.csproj">
+      <Project>{EDFB3EE2-A8DB-458F-9051-1EED0DDFDFB4}</Project>
+      <Name>Academy.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

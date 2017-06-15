@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.CLI", "Academy.CLI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Framework", "Academy.Framework\Academy.Framework.csproj", "{EDFB3EE2-A8DB-458F-9051-1EED0DDFDFB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Framework.Tests", "Academy.Tests\Academy.Framework.Tests.csproj", "{4D096867-A467-4A9F-B424-71CBFE5F8B9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Framework.Tests", "Academy.Framework.Tests\Academy.Framework.Tests.csproj", "{4D096867-A467-4A9F-B424-71CBFE5F8B9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

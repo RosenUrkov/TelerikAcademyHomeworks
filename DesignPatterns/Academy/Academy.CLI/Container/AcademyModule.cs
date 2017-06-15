@@ -126,6 +126,10 @@ namespace Academy.Container
                 listUsersBinding.Intercept().With<LoggingInterceptor>();
                 listUsersInSeasonBinding.Intercept().With<LoggingInterceptor>();
             }
+
+            Kernel.InterceptBefore<ConsoleWriter>(x => x.Write(null), x => Console.WriteLine("Program Terminated!"));
+            Kernel.InterceptAround<ConsoleReader>(x => x.ReadLine(), x => Console.WriteLine("Start reading.."), x=> Console.WriteLine("End reading.."));
+            Kernel.InterceptAfter<ListUsersCommand>(x => x.Execute(null), x => x.ReturnValue = "intercepted");
         }
     }
 }
