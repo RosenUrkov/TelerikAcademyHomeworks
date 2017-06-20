@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2a510e38458746428679f91a66734aee" Name="Diagram1">
+        <EntityTypeShape EntityType="Computers.Models.Computer" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Computers.Models.ComputerType" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Computers.Models.CPU" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Computers.Models.GPU" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Computers.Models.GPUType" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Computers.Models.StorageDevice" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Computers.Models.StorageDeviceType" Width="1.5" PointX="6" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Computers.Models.FK_Computer_ComputerType" ManuallyRouted="false" />
+        <AssociationConnector Association="Computers.Models.FK_Computer_CPU" ManuallyRouted="false" />
+        <AssociationConnector Association="Computers.Models.FK_GPU_Computer" ManuallyRouted="false" />
+        <AssociationConnector Association="Computers.Models.FK_GPU_GPUType" ManuallyRouted="false" />
+        <AssociationConnector Association="Computers.Models.FK_StorageDevice_StorageDeviceType" ManuallyRouted="false" />
+        <AssociationConnector Association="Computers.Models.ComputerSorageDevice" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Computers.Models.sysdiagram" Width="1.5" PointX="6" PointY="7.875" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
