@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace LinkedList
 {
@@ -20,7 +21,7 @@ namespace LinkedList
 
         public void Add(T value)
         {
-            if(this.first is null)
+            if (this.first is null)
             {
                 this.first = new ListItem<T>(value);
                 this.size++;
@@ -44,7 +45,7 @@ namespace LinkedList
             {
                 current = current.Next;
             }
-            
+
             var newValue = new ListItem<T>(value);
             newValue.Next = current.Next;
             current.Next = newValue;
@@ -68,7 +69,7 @@ namespace LinkedList
             {
                 current = current.Next;
             }
-            
+
             newValue.Next = current.Next;
             current.Next = newValue;
 
@@ -85,7 +86,7 @@ namespace LinkedList
             }
 
             var current = this.first;
-            while(current.Next != element)
+            while (current.Next != element)
             {
                 current = current.Next;
             }
