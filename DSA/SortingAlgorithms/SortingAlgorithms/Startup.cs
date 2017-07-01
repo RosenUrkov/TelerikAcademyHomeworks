@@ -16,7 +16,7 @@ namespace SortingAlgorithms
             stopwatch.Start();
             Console.WriteLine(SelectionSorter<int>.Sort(collection));
             stopwatch.Stop();
-            
+
             Console.WriteLine(string.Join(", ", collection));
             Console.WriteLine(stopwatch.Elapsed);
             Console.WriteLine();
@@ -31,6 +31,14 @@ namespace SortingAlgorithms
 
             stopwatch.Start();
             Console.WriteLine(MergeSorter<int>.Sort(collection));
+            stopwatch.Stop();
+
+            Console.WriteLine(string.Join(", ", collection));
+            Console.WriteLine(stopwatch.Elapsed);
+            Console.WriteLine();
+
+            stopwatch.Start();
+            Console.WriteLine(Shuffler<int>.Shuffle(collection));
             stopwatch.Stop();
 
             Console.WriteLine(string.Join(", ", collection));

@@ -45,6 +45,7 @@
     <Compile Include="MergeSorter.cs" />
     <Compile Include="QuickSorter.cs" />
     <Compile Include="SelectionSorter.cs" />
+    <Compile Include="Shuffler.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
