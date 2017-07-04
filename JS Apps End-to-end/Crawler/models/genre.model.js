@@ -15,7 +15,8 @@ class Genre {
                     .text().trim().substring('Genre: '.length);
 
                 const genre = new Genre(name);
-                genre.movies = Array.from($(constants.MOVIE_ID_SELECTOR).children('a'));
+                genre.movies = Array.from($(constants.MOVIE_ID_SELECTOR)
+                    .children('a'));
 
                 return genre;
             })
