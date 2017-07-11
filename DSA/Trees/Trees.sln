@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndBuildTree", "ReadAndBuildTree\ReadAndBuildTree.csproj", "{85A21077-B2C0-4E76-8F11-7BF013D5C5BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraverseDirectory", "TraverseDirectory\TraverseDirectory.csproj", "{FB8C15B5-0BF7-41E4-85EF-F52F19774572}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85A21077-B2C0-4E76-8F11-7BF013D5C5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A21077-B2C0-4E76-8F11-7BF013D5C5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A21077-B2C0-4E76-8F11-7BF013D5C5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A21077-B2C0-4E76-8F11-7BF013D5C5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB8C15B5-0BF7-41E4-85EF-F52F19774572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8C15B5-0BF7-41E4-85EF-F52F19774572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8C15B5-0BF7-41E4-85EF-F52F19774572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8C15B5-0BF7-41E4-85EF-F52F19774572}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
