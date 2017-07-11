@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddPresenceElements", "OddP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordOccureanceInText", "WordOccureanceInText\WordOccureanceInText.csproj", "{3CCEED83-4F4B-415B-95B0-C641E1DB7241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet", "HashSet\HashSet.csproj", "{17FB15F4-EC09-49C4-9E5B-D13633A5FEE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{A1A6D2A2-16C1-4351-965F-EFD1C9EA0B51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3CCEED83-4F4B-415B-95B0-C641E1DB7241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CCEED83-4F4B-415B-95B0-C641E1DB7241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CCEED83-4F4B-415B-95B0-C641E1DB7241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FB15F4-EC09-49C4-9E5B-D13633A5FEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FB15F4-EC09-49C4-9E5B-D13633A5FEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FB15F4-EC09-49C4-9E5B-D13633A5FEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FB15F4-EC09-49C4-9E5B-D13633A5FEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A6D2A2-16C1-4351-965F-EFD1C9EA0B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A6D2A2-16C1-4351-965F-EFD1C9EA0B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A6D2A2-16C1-4351-965F-EFD1C9EA0B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A6D2A2-16C1-4351-965F-EFD1C9EA0B51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
