@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -8,21 +9,10 @@ namespace TraverseDirectory
     {
         public static void Main(string[] args)
         {
-            RecursiveFileSystemTraverse("C:\\WINDOWS");
-        }
+            var tree = FileSystemTree.GenerateTree("C:\\WINDOWS");
 
-        private static void RecursiveFileSystemTraverse(string path)
-        {
-            Directory.EnumerateDirectories(path)
-                .ToList()
-                .ForEach(x=>
-                {
-                    Directory.EnumerateFiles(path, "*.exe")
-                    .ToList()
-                    .ForEach(Console.WriteLine);
-
-                    RecursiveFileSystemTraverse(x);
-                });
-        }
+            tree.PrintFiles();
+            Console.WriteLine(tree.GetByteSize());
+        }       
     }
 }

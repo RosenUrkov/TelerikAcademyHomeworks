@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndBuildTree", "ReadAndBuildTree\ReadAndBuildTree.csproj", "{85A21077-B2C0-4E76-8F11-7BF013D5C5BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraverseDirectory", "TraverseDirectory\TraverseDirectory.csproj", "{FB8C15B5-0BF7-41E4-85EF-F52F19774572}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraverseFileSystem", "TraverseDirectory\TraverseFileSystem.csproj", "{FB8C15B5-0BF7-41E4-85EF-F52F19774572}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
