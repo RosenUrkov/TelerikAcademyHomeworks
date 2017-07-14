@@ -39,7 +39,9 @@ gulp.task('compile', gulpsync.sync([
 ]));
 
 gulp.task('server', ['compile'], () => {
-    return express.run(['./es2015/app.js']);
+    // must fix the express.static routes in order to run like this
+    // return express.run(['./es2015/app.js']);
+    return express.run(['./app.js']);
 });
 
 gulp.task('dev', () => {
