@@ -1,4 +1,6 @@
-!= messages()
+extends master
+block body
+    != messages('flashTemplate', locals)
 
-h1
-    |   Connect Flash Test
+    h1
+        |   Connect Flash Test

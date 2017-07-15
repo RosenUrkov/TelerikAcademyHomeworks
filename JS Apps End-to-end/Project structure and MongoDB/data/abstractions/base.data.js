@@ -5,7 +5,11 @@ class Data {
     }
 
     all() {
-        return this.collection.find().toArray();
+        return this.filter({});
+    }
+
+    filter(filterObject) {
+        return this.collection.find(filterObject).toArray();
     }
 
     add(item) {

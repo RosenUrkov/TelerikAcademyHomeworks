@@ -1,0 +1,24 @@
+extends master
+block body
+    form(action='/items' method='post')
+        .form-group
+            label(for='Item') Create item:
+            input.form-control(name='color' type='text', placeholder='Example: red' required)
+        button.btn.btn-primary(type='submit') Create
+
+    != messages()    
+    br
+
+    form(action='/items' method='get')
+        .form-group
+            label(for='Item') Filter items:
+            input.form-control(name='color' type='text', placeholder='Example: red')
+        button.btn.btn-success(type='submit') Filter
+
+    br
+
+    h1
+        |   Items:
+    ul
+        each item in context
+            li #{item.color}

@@ -1,0 +1,6 @@
+.messages.panel.panel-primary
+  each type in Object.keys(messages)
+    ul.panel-body.text-center(class="#{type}")
+      each message in messages[type]
+        li 
+            h1.text-uppercase.text-danger #{message}
