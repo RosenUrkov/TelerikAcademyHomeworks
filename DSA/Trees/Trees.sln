@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndBuildTree", "ReadAnd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraverseFileSystem", "TraverseDirectory\TraverseFileSystem.csproj", "{FB8C15B5-0BF7-41E4-85EF-F52F19774572}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{EB858578-9490-47A9-B047-940019C90ECB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FB8C15B5-0BF7-41E4-85EF-F52F19774572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB8C15B5-0BF7-41E4-85EF-F52F19774572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB8C15B5-0BF7-41E4-85EF-F52F19774572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB858578-9490-47A9-B047-940019C90ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB858578-9490-47A9-B047-940019C90ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB858578-9490-47A9-B047-940019C90ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB858578-9490-47A9-B047-940019C90ECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
