@@ -11,6 +11,8 @@ const attach = (app, { serverController }) => {
     serverRouter.get('/items', serverController.showItems);
     serverRouter.post('/items', serverController.addItem);
 
+    serverRouter.get('/chat', serverController.showChat);
+
     app.use('/', serverRouter);
 };
 

@@ -25,6 +25,9 @@ const serverController = ({ itemData }) => {
                 .then(() => req.flash('info', 'Item added successfully!'))
                 .then(() => res.redirect('/items'));
         },
+        showChat(req, res) {
+            return res.render('chat');
+        },
     };
 };
 

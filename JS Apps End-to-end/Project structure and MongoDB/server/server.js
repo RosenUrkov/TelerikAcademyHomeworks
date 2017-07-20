@@ -1,17 +1,18 @@
 const express = require('express');
 
-const app = (data) => {
-    const server = express();
+const application = (data) => {
+    const app = express();
 
-    server.use('/public', express.static('public'));
-    server.use('/libs', express.static('node_modules'));
+    app.use('/public', express.static('public'));
+    app.use('/libs', express.static('node_modules'));
 
-    require('./config')(server);
+    require('./config/app.config')(app);
 
     const controllers = require('./controllers')(data);
-    require('./routers')(server, controllers);
+    require('./routers')(app, controllers);
 
+    const server = require('./config/socket.config')(app);
     return Promise.resolve(server);
 };
 
-module.exports = app;
+module.exports = application;
