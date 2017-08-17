@@ -15,4 +15,4 @@ function solve(args) {
     console.log(isPrime);
 
 }
-//solve(['23']);
+solve(['1000000007']);
