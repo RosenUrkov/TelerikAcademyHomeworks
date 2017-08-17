@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollingHash", "RollingHash\RollingHash.csproj", "{A450D024-79AF-48A2-8205-DEE4898CB3E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMP", "KMP\KMP.csproj", "{A33A02DF-F534-4D7C-BE54-E47121E8D700}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A450D024-79AF-48A2-8205-DEE4898CB3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A450D024-79AF-48A2-8205-DEE4898CB3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A450D024-79AF-48A2-8205-DEE4898CB3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33A02DF-F534-4D7C-BE54-E47121E8D700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33A02DF-F534-4D7C-BE54-E47121E8D700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33A02DF-F534-4D7C-BE54-E47121E8D700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33A02DF-F534-4D7C-BE54-E47121E8D700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
