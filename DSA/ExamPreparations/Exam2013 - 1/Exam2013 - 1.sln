@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesInABottle", "MessagesInABottle\MessagesInABottle.csproj", "{ACCB172C-FDC5-444E-AFF7-2C64820B05DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyTasks", "AcademyTasks\AcademyTasks.csproj", "{7E29FCD8-CACF-40A6-8865-989957D62C8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACCB172C-FDC5-444E-AFF7-2C64820B05DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCB172C-FDC5-444E-AFF7-2C64820B05DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCB172C-FDC5-444E-AFF7-2C64820B05DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCB172C-FDC5-444E-AFF7-2C64820B05DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E29FCD8-CACF-40A6-8865-989957D62C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E29FCD8-CACF-40A6-8865-989957D62C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E29FCD8-CACF-40A6-8865-989957D62C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E29FCD8-CACF-40A6-8865-989957D62C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F8E30FC-A26C-4A23-B132-94D77ADA9A3F}</ProjectGuid>
+    <ProjectGuid>{7E29FCD8-CACF-40A6-8865-989957D62C8B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AhoCorasick</RootNamespace>
-    <AssemblyName>AhoCorasick</AssemblyName>
+    <RootNamespace>AcademyTasks</RootNamespace>
+    <AssemblyName>AcademyTasks</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Trie.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

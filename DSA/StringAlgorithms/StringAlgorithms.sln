@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollingHash", "RollingHash\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMP", "KMP\KMP.csproj", "{A33A02DF-F534-4D7C-BE54-E47121E8D700}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhoCorasick", "AhoCorasick\AhoCorasick.csproj", "{6F8E30FC-A26C-4A23-B132-94D77ADA9A3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A33A02DF-F534-4D7C-BE54-E47121E8D700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A33A02DF-F534-4D7C-BE54-E47121E8D700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A33A02DF-F534-4D7C-BE54-E47121E8D700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8E30FC-A26C-4A23-B132-94D77ADA9A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8E30FC-A26C-4A23-B132-94D77ADA9A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8E30FC-A26C-4A23-B132-94D77ADA9A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8E30FC-A26C-4A23-B132-94D77ADA9A3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
