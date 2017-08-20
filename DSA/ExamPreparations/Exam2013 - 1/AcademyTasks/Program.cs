@@ -8,9 +8,11 @@ namespace AcademyTasks
 {
     public class Program
     {
+        public static List<int> list;
+
         public static void Main(string[] args)
         {
-            var list = Console.ReadLine()
+            list = Console.ReadLine()
                 .Split(new[] { ", " }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
@@ -20,12 +22,9 @@ namespace AcademyTasks
             int minTaskValue = list[0];
             int maxTaskValue = list[0];
 
-            int result = 0;
-            var isEnded = false;
+            int index = -1;
             for (int i = 0; i < list.Count; i++)
             {
-                result++;
-
                 if (list[i] < minTaskValue)
                 {
                     minTaskValue = list[i];
@@ -37,43 +36,45 @@ namespace AcademyTasks
 
                 if (maxTaskValue - minTaskValue >= coef)
                 {
-                    isEnded = true;
-                    Console.WriteLine(result);
+                    index = i;
                     break;
-                }
-
-                if (i + 1 < list.Count &&
-                    (list[i + 1] - minTaskValue >= coef ||
-                    maxTaskValue - list[i + 1] >= coef))
-                {
-                    continue;
-                }
-                else if (i + 2 < list.Count &&
-                    ((list[i + 2] - minTaskValue < coef &&
-                    list[i + 2] - list[i + 1] >= coef) ||
-                    (maxTaskValue - list[i + 2] < coef &&
-                    list[i + 1] - list[i + 2] >= coef)))
-                {
-                    continue;
-                }
-                else if (i + 3 < list.Count &&
-                    ((list[i + 3] - list[i + 2] < coef &&
-                    list[i + 3] - list[i + 1] >= coef) ||
-                    (list[i + 2] - list[i + 3] < coef &&
-                    list[i + 1] - list[i + 3] >= coef)))
-                {
-                    continue;
-                }
-                else
-                {
-                    i++;
                 }
             }
 
-            if (!isEnded)
+            if (index == -1)
             {
                 Console.WriteLine(list.Count);
             }
+
+            int passedValue = list[index] == minTaskValue ? maxTaskValue : minTaskValue;
+            Recursion(0, index, passedValue, false, 1);
+        }
+
+        public static void Recursion(int currentIndex, int index, int passedValue, bool isPassed, int result)
+        {
+            if (currentIndex > index)
+            {
+                return;
+            }
+
+            if (currentIndex == index)
+            {
+                if (!isPassed)
+                {
+                    return;
+                }
+
+                Console.WriteLine(result);
+                Environment.Exit(0);
+            }
+
+            if (list[currentIndex] == passedValue)
+            {
+                isPassed = true;
+            }
+
+            Recursion(currentIndex + 2, index, passedValue, isPassed, result + 1);
+            Recursion(currentIndex + 1, index, passedValue, isPassed, result + 1);
         }
     }
 }
