@@ -31,26 +31,11 @@ namespace MinimumEditDistance
             {
                 for (int j = 1; j < table.GetLength(1); j++)
                 {
-                    if (startBits[i - 1] == endBits[j - 1])
-                    {
-                        table[i, j] = table[i - 1, j - 1];
-                    }
-                    else
-                    {
-                        var minimal = new[] { table[i - 1, j], table[i, j - 1], table[i - 1, j - 1] }.Min();
-                        if (table[i - 1, j] == minimal)
-                        {
-                            table[i, j] = table[i - 1, j] + (startBits[i - 1] == '0' ? DeletingZeroCost : DeletingOneCost);
-                        }
-                        if (table[i - 1, j - 1] == minimal)
-                        {
-                            table[i, j] = table[i - 1, j - 1] + ChangingCost;
-                        }
-                        else if (table[i, j - 1] == minimal)
-                        {
-                            table[i, j] = table[i, j - 1] + (endBits[j - 1] == '0' ? AddingZeroCost : AddingOneCost);
-                        }
-                    }
+                    var deletionCost = table[i - 1, j] + (startBits[i - 1] == '0' ? DeletingZeroCost : DeletingOneCost);
+                    var additionCost = table[i, j - 1] + (endBits[j - 1] == '0' ? AddingZeroCost : AddingOneCost);
+                    var changingCost = table[i - 1, j - 1] + (startBits[i - 1] == endBits[j - 1] ? 0 : ChangingCost);
+
+                    table[i, j] = new[] { deletionCost, additionCost, changingCost }.Min();
                 }
             }
 
