@@ -14,73 +14,17 @@ namespace GraphsAlgorithms
         public int ParentsCount { get; set; }
     }
 
-    class Node : IComparable<Node>
-    {
-        public Node(int vertex, int distance)
-        {
-            Vertex = vertex;
-            Distance = distance;
-        }
-
-        public int Vertex { get; set; }
-
-        public int Distance { get; set; }
-
-        public int CompareTo(Node other)
-        {
-            return this.Distance.CompareTo(other.Distance);
-        }
-    }
-
     public class Program
     {
-        static LinkedList<int>[] ReadGraph()
-        {
-            int n = int.Parse(Console.ReadLine());
-            int m = int.Parse(Console.ReadLine());
-
-            var vertices = new LinkedList<int>[n];
-
-            for (var i = 0; i < m; i++)
-            {
-                var edge = Console.ReadLine()
-                    .Split(' ')
-                    .Select(int.Parse)
-                    .ToArray();
-
-                var x = edge[0] - 1;
-                var y = edge[1] - 1;
-
-                AddEdge(vertices, x, y);
-                AddEdge(vertices, y, x);
-            }
-
-            return vertices;
-        }
-
-        private static void AddEdge(LinkedList<int>[] vertices, int from, int to)
-        {
-            if (vertices[from] == null)
-            {
-                vertices[from] = new LinkedList<int>();
-            }
-
-            vertices[from].AddLast(to);
-        }
-
         static Dictionary<int, TopoNode> ReadDirectedGraph()
         {
             var n = int.Parse(Console.ReadLine());
-            var m = int.Parse(Console.ReadLine());
 
             var vertices = new Dictionary<int, TopoNode>();
 
-            for (var i = 0; i < m; i++)
+            for (var i = 0; i < n; i++)
             {
-                var edge = Console.ReadLine()
-                    .Split(' ')
-                    .Select(int.Parse)
-                    .ToArray();
+                var edge = Console.ReadLine().ToCharArray();
 
                 var x = edge[0];
                 var y = edge[1];
@@ -107,36 +51,6 @@ namespace GraphsAlgorithms
             }
 
             return vertices;
-        }
-
-        private static List<Node>[] ReadWeightedGraph()
-        {
-            var n = int.Parse(Console.ReadLine());
-            var m = int.Parse(Console.ReadLine());
-
-            var vertices = new List<Node>[n];
-
-            for (var i = 0; i < m; i++)
-            {
-                var edge = Console.ReadLine()
-                    .Split(' ')
-                    .Select(int.Parse)
-                    .ToArray();
-
-                AddWeightedEdge(vertices, edge[0] - 1, edge[1] - 1, edge[2]);
-                AddWeightedEdge(vertices, edge[1] - 1, edge[0] - 1, edge[2]);
-            }
-
-            return vertices;
-        }
-
-        private static void AddWeightedEdge(List<Node>[] vertices, int from, int to, int distance)
-        {
-            if (vertices[from] == null)
-            {
-                vertices[from] = new List<Node>();
-            }
-            vertices[from].Add(new Node(to, distance));
         }
 
         static void Main()
@@ -188,6 +102,6 @@ namespace GraphsAlgorithms
             }
 
             return queue;
-        }       
+        }
     }
 }
