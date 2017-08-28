@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendsInNeed", "FriendsInN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskWinsRiskLoses", "RiskWinsRiskLoses\RiskWinsRiskLoses.csproj", "{E2B1E3E1-EF0B-4FE8-89F5-5DFDF298853C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCenter", "ShoppingCenter\ShoppingCenter.csproj", "{E8506A4F-09A0-49AC-B574-B53B57A69A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E2B1E3E1-EF0B-4FE8-89F5-5DFDF298853C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2B1E3E1-EF0B-4FE8-89F5-5DFDF298853C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2B1E3E1-EF0B-4FE8-89F5-5DFDF298853C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8506A4F-09A0-49AC-B574-B53B57A69A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8506A4F-09A0-49AC-B574-B53B57A69A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8506A4F-09A0-49AC-B574-B53B57A69A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8506A4F-09A0-49AC-B574-B53B57A69A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
