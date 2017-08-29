@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerRanking", "PlayerRanking\PlayerRanking.csproj", "{F4572B64-C262-418E-B7A7-5739E79CFFA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldFever", "GoldFever\GoldFever.csproj", "{2A6EB385-4ABE-424B-B7C6-480DE2069B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRingsOfTheAcademy", "TheRingsOfTheAcademy\TheRingsOfTheAcademy.csproj", "{80BA03D4-15BF-4B32-8264-AB414D486795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{4D3257EA-5E04-450A-B89C-F2725F37EA57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4572B64-C262-418E-B7A7-5739E79CFFA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4572B64-C262-418E-B7A7-5739E79CFFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4572B64-C262-418E-B7A7-5739E79CFFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4572B64-C262-418E-B7A7-5739E79CFFA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6EB385-4ABE-424B-B7C6-480DE2069B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6EB385-4ABE-424B-B7C6-480DE2069B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6EB385-4ABE-424B-B7C6-480DE2069B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6EB385-4ABE-424B-B7C6-480DE2069B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BA03D4-15BF-4B32-8264-AB414D486795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BA03D4-15BF-4B32-8264-AB414D486795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BA03D4-15BF-4B32-8264-AB414D486795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BA03D4-15BF-4B32-8264-AB414D486795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3257EA-5E04-450A-B89C-F2725F37EA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3257EA-5E04-450A-B89C-F2725F37EA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3257EA-5E04-450A-B89C-F2725F37EA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3257EA-5E04-450A-B89C-F2725F37EA57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
