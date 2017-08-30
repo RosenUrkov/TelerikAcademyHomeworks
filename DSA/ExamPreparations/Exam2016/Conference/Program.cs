@@ -10,22 +10,39 @@
             var line = Console.ReadLine().Split(' ');
             int nodesCount = int.Parse(line[0]);
             int edgesCount = int.Parse(line[1]);
-            List<Edge> edges = new List<Edge>();
 
+            List<Edge> edges = new List<Edge>();
             InitializeGraph(edges, edgesCount);
 
-            edges.Sort();
-
-            int[] tree = new int[nodesCount + 1]; //we start from 1, not from 0
-            var mpd = new List<Edge>();
+            int[] tree = new int[nodesCount]; //we start from 1, not from 0
             int treesCount = 1;
 
-            treesCount = FindMinimumSpanningTree(edges, tree, mpd, treesCount);
+            FindMinimumSpanningTree(edges, tree, treesCount);
 
-            PrintMinimumSpanningTree(mpd);
+            var result = new int[nodesCount];
+            for (int i = 0; i < tree.Length; i++)
+            {
+                result[tree[i]]++;
+            }
+
+            long sum = 0;
+            for (int i = nodesCount - 1; i > 0; i--)
+            {
+                sum += result[i] * (nodesCount - result[i]);
+                nodesCount -= result[i];
+            }
+
+            long noFactorial = 0;
+            for (int i = result[0] - 1; i > 0; i--)
+            {
+                noFactorial += i;
+            }
+
+            sum += noFactorial;
+            Console.WriteLine(sum);
         }
 
-        private static int FindMinimumSpanningTree(List<Edge> edges, int[] tree, List<Edge> mpd, int treesCount)
+        private static int FindMinimumSpanningTree(List<Edge> edges, int[] tree, int treesCount)
         {
             foreach (var edge in edges)
             {
@@ -41,7 +58,6 @@
                         // attach the start node to the tree of the end node
                         tree[edge.StartNode] = tree[edge.EndNode];
                     }
-                    mpd.Add(edge);
                 }
                 else // the start is part of a tree
                 {
@@ -49,7 +65,6 @@
                     {
                         //attach the end node to the tree;
                         tree[edge.EndNode] = tree[edge.StartNode];
-                        mpd.Add(edge);
                     }
                     else if (tree[edge.EndNode] != tree[edge.StartNode]) // combine the trees
                     {
@@ -62,19 +77,10 @@
                                 tree[i] = tree[edge.StartNode];
                             }
                         }
-                        mpd.Add(edge);
                     }
                 }
             }
             return treesCount;
-        }
-
-        private static void PrintMinimumSpanningTree(IEnumerable<Edge> usedEdges)
-        {
-            foreach (var edge in usedEdges)
-            {
-                Console.WriteLine(edge);
-            }
         }
 
         private static void InitializeGraph(List<Edge> edges, int edgesCount)
@@ -82,40 +88,21 @@
             for (int i = 0; i < edgesCount; i++)
             {
                 var line = Console.ReadLine().Split(' ');
-                edges.Add(new Edge(int.Parse(line[0]), int.Parse(line[1]), int.Parse(line[2])));
+                edges.Add(new Edge(int.Parse(line[0]), int.Parse(line[1])));
             }
         }
     }
 
-    public class Edge : IComparable<Edge>
+    public class Edge
     {
-        public Edge(int startNode, int endNode, int weight)
+        public Edge(int startNode, int endNode)
         {
             this.StartNode = startNode;
             this.EndNode = endNode;
-            this.Weight = weight;
         }
 
         public int StartNode { get; set; }
 
         public int EndNode { get; set; }
-
-        public int Weight { get; set; }
-
-        public int CompareTo(Edge other)
-        {
-            int weightCompared = this.Weight.CompareTo(other.Weight);
-            if (weightCompared == 0)
-            {
-                return this.StartNode.CompareTo(other.StartNode);
-            }
-
-            return weightCompared;
-        }
-
-        public override string ToString()
-        {
-            return string.Format("({0} {1}) -> {2}", this.StartNode, this.EndNode, this.Weight);
-        }
     }
 }
