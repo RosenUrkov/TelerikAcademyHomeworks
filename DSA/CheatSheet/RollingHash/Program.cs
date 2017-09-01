@@ -27,7 +27,7 @@ namespace RabinKarp
                 this.AddRight(str[i]);
                 this.BasePower = this.BasePower * this.Base % this.Mod;
             }
-            Console.WriteLine($"hash of {str.Substring(0, endIndex)} is {this.hash}");
+            //Console.WriteLine($"hash of {str.Substring(0, endIndex)} is {this.hash}");
         }
 
         public override bool Equals(object obj)
@@ -50,6 +50,43 @@ namespace RabinKarp
         private void RemoveLeft(char c)
         {
             this.hash = (this.Mod + this.hash - c * this.BasePower % this.Mod) % this.Mod;
+        }
+    }
+
+    class Program
+    {
+        static void PrintMatch(int index, string pattern)
+        {
+            for (int i = 0; i < index; ++i)
+            {
+                Console.Write(" ");
+            }
+
+            Console.WriteLine(pattern);
+        }
+
+        static void Main()
+        {
+            var pattern = "alabala";
+            var text = "xalabalabala";
+
+            var patternHash = new SingleRollingHash(211, 1000000007, pattern);
+            var textHash = new SingleRollingHash(211, 1000000007, text, pattern.Length);
+
+            if (patternHash.Equals(textHash))
+            {
+                PrintMatch(0, pattern);
+            }
+
+            for (int i = 0; i < text.Length - pattern.Length; i++)
+            {
+                textHash.Roll(text[i + pattern.Length], text[i]);
+
+                if (patternHash.Equals(textHash))
+                {
+                    PrintMatch(i + 1, pattern);
+                }
+            }
         }
     }
 }
