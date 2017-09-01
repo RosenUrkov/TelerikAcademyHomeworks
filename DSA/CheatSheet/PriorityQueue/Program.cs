@@ -19,9 +19,29 @@ namespace SpanningTrees
             this.compare = (x, y) => x.CompareTo(y) < 0;
         }
 
-        public T Top => heap[1];
-        public int Count => heap.Count - 1;
-        public bool IsEmpty => Count == 0;
+        public T Top
+        {
+            get
+            {
+                return heap[1];
+            }
+        }
+
+        public int Count
+        {
+            get
+            {
+                return heap.Count - 1;
+            }
+        }
+
+        public bool IsEmpty
+        {
+            get
+            {
+                return Count == 0;
+            }
+        }
 
         public void Enqueue(T value)
         {
