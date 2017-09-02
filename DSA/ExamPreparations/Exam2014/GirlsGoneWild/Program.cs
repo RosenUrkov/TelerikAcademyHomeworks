@@ -9,15 +9,12 @@ namespace GirlsGoneWild
     class Program
     {
         static SortedSet<string> result = new SortedSet<string>();
-        static HashSet<string> usedPairs = new HashSet<string>();
 
         static int shirts = 0;
         static string skirts = "";
         static int girlsCount = 0;
 
         static string[] girls;
-
-        static bool[] usedShirts;
         static bool[] usedSkirts;
 
         static void Main(string[] args)
@@ -27,17 +24,15 @@ namespace GirlsGoneWild
             girlsCount = int.Parse(Console.ReadLine());
 
             girls = new string[girlsCount];
-
-            usedShirts = new bool[shirts];
             usedSkirts = new bool[skirts.Length];
 
-            Recursion(0);
+            Recursion(0, 0);
 
             Console.WriteLine(result.Count);
             Console.WriteLine(string.Join("\n", result));
         }
 
-        static void Recursion(int current)
+        static void Recursion(int current, int shirtStartIndex)
         {
             if (current == girlsCount)
             {
@@ -45,43 +40,22 @@ namespace GirlsGoneWild
                 return;
             }
 
-            for (int i = 0; i < shirts; i++)
+            for (int i = shirtStartIndex; i < shirts; i++)
             {
-                if (usedShirts[i])
-                {
-                    continue;
-                }
-
-                usedShirts[i] = true;
                 for (int j = 0; j < skirts.Length; j++)
                 {
                     if (usedSkirts[j])
                     {
                         continue;
                     }
-                    
-                    var pair = i.ToString() + j.ToString();
-                    if (current == 0)
-                    {
-                        usedPairs.Add(pair);
-                    }
-                    else
-                    {
-                        if (usedPairs.Contains(pair))
-                        {
-                            continue;
-                        }
-                    }
 
                     usedSkirts[j] = true;
 
                     girls[current] = i.ToString() + skirts[j];
-                    Recursion(current + 1);
+                    Recursion(current + 1, i + 1);
 
                     usedSkirts[j] = false;
                 }
-
-                usedShirts[i] = false;
             }
         }
     }
