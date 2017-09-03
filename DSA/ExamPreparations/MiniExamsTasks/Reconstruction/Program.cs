@@ -40,6 +40,8 @@ namespace Renewal
 
     class Program
     {
+        static int[] array;
+
         static void Main(string[] args)
         {
             var n = int.Parse(Console.ReadLine());
@@ -78,81 +80,59 @@ namespace Renewal
             var edges = new List<Edge>();
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                for (int j = 0; j < matrix.GetLength(1); j++)
+                for (int j = i + 1; j < matrix.GetLength(1); j++)
                 {
-                    if (i == j)
-                    {
-                        continue;
-                    }
-
                     if (matrix[i, j] == 1)
                     {
                         cost += destroy[i, j];
-                        edges.Add(new Edge(i + 1, j + 1, -destroy[i, j]));
-
-                        matrix[j, i] = 0;
+                        edges.Add(new Edge(i, j, -destroy[i, j]));
                     }
                     else
                     {
-                        edges.Add(new Edge(i + 1, j + 1, build[i, j]));
+                        edges.Add(new Edge(i, j, build[i, j]));
                     }
                 }
             }
 
             edges.Sort();
 
-            int[] tree = new int[n + 1]; //we start from 1, not from 0
-            var mpd = new List<Edge>();
-            int treesCount = 1;
+            Console.WriteLine(string.Join(" ", edges));
 
-            FindMinimumSpanningTree(edges, tree, mpd, treesCount);
+            array = Enumerable.Repeat(-1, n).ToArray();
+            foreach (var edge in edges)
+            {
+                if (Union(edge.StartNode, edge.EndNode))
+                {
+                    cost += edge.Weight;
+                }
+            }
 
-            cost += mpd.Sum(x => x.Weight);
             Console.WriteLine(cost);
         }
 
-        private static int FindMinimumSpanningTree(List<Edge> edges, int[] tree, List<Edge> mpd, int treesCount)
+        static bool Union(int x, int y)
         {
-            foreach (var edge in edges)
-            {
-                if (tree[edge.StartNode] == 0) // not visited
-                {
-                    if (tree[edge.EndNode] == 0) // both ends are not visited
-                    {
-                        tree[edge.StartNode] = tree[edge.EndNode] = treesCount;
-                        treesCount++;
-                    }
-                    else
-                    {
-                        // attach the start node to the tree of the end node
-                        tree[edge.StartNode] = tree[edge.EndNode];
-                    }
-                    mpd.Add(edge);
-                }
-                else // the start is part of a tree
-                {
-                    if (tree[edge.EndNode] == 0)
-                    {
-                        //attach the end node to the tree;
-                        tree[edge.EndNode] = tree[edge.StartNode];
-                        mpd.Add(edge);
-                    }
-                    else if (tree[edge.EndNode] != tree[edge.StartNode]) // combine the trees
-                    {
-                        int oldTreeNumber = tree[edge.EndNode];
+            x = Find(x);
+            y = Find(y);
 
-                        for (int i = 0; i < tree.Length; i++)
-                        {
-                            if (tree[i] == oldTreeNumber)
-                            {
-                                tree[i] = tree[edge.StartNode];
-                            }
-                        }
-                        mpd.Add(edge);
-                    }
-                }
+            if (x == y)
+            {
+                return false;
             }
-            return treesCount;
+
+            array[x] = y;
+            return true;
+        }
+
+        static int Find(int x)
+        {
+            if (array[x] < 0)
+            {
+                return x;
+            }
+
+            array[x] = Find(array[x]);
+            return array[x];
         }
     }
 }

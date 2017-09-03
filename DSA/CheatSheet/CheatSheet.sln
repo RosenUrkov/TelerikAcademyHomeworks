@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deque", "Deque\Deque.csproj", "{4CBE10D6-C8A7-4844-986D-DF15611D0291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionAndIntersect", "UnionAndIntersect\UnionAndIntersect.csproj", "{76809E50-DAE5-46B9-8E9E-51DB469AE435}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{1AA379F5-391E-459B-B632-1E4B7DD20880}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionFind", "UnionFind\UnionFind.csproj", "{0923C7E9-3EF7-45D8-9D19-D6423C0BFA0D}"
@@ -27,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMP", "KMP\KMP.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhoCorasick", "AhoCorasick\AhoCorasick.csproj", "{A7866F31-CD4F-41BF-8D0B-C7C295034105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Triangle\Geometry.csproj", "{BE60C2E4-C200-4ACF-8607-A749DD3C6CCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{BE60C2E4-C200-4ACF-8607-A749DD3C6CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +37,6 @@ Global
 		{4CBE10D6-C8A7-4844-986D-DF15611D0291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CBE10D6-C8A7-4844-986D-DF15611D0291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CBE10D6-C8A7-4844-986D-DF15611D0291}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76809E50-DAE5-46B9-8E9E-51DB469AE435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76809E50-DAE5-46B9-8E9E-51DB469AE435}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76809E50-DAE5-46B9-8E9E-51DB469AE435}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76809E50-DAE5-46B9-8E9E-51DB469AE435}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1AA379F5-391E-459B-B632-1E4B7DD20880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1AA379F5-391E-459B-B632-1E4B7DD20880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AA379F5-391E-459B-B632-1E4B7DD20880}.Release|Any CPU.ActiveCfg = Release|Any CPU

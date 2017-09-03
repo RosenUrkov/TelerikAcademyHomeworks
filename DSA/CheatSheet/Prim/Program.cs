@@ -40,11 +40,15 @@
         public static void Main()
         {
             const int numberOfNodes = 6;
-            var used = new bool[numberOfNodes + 1];
+            const int numberOfEdges = 5;
+
+            var used = new bool[numberOfNodes + 1];           
+
+            var edges = new List<Edge>();
+            InitializeGraph(edges, numberOfEdges);
 
             var priority = new SortedSet<Edge>();
             var resultTree = new List<Edge>();
-            var edges = new List<Edge>();
 
             // adding edges that connect the node 1 with all the others - 2, 3, 4
             foreach (Edge edge in edges)
@@ -56,10 +60,9 @@
             }
 
             used[edges[0].StartNode] = true;
-
             FindMinimumSpanningTree(used, priority, resultTree, edges);
         }
-        
+
         private static void FindMinimumSpanningTree(bool[] used, SortedSet<Edge> priority, List<Edge> mpdEdges, List<Edge> edges)
         {
             while (priority.Count > 0)
@@ -87,6 +90,15 @@
                         priority.Add(edges[i]);
                     }
                 }
+            }
+        }
+
+        private static void InitializeGraph(List<Edge> edges, int edgesCount)
+        {
+            for (int i = 0; i < edgesCount; i++)
+            {
+                var line = Console.ReadLine().Split(' ');
+                edges.Add(new Edge(int.Parse(line[0]), int.Parse(line[1]), int.Parse(line[2])));
             }
         }
     }
