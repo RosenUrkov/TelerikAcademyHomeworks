@@ -40,17 +40,17 @@ namespace Flies
             fly = Console.ReadLine().Split(' ');
             var C = new Pair(double.Parse(fly[0]), double.Parse(fly[1]));
 
-
             double yDelta_a = B.y - A.y;
             double xDelta_a = B.x - A.x;
             double yDelta_b = C.y - B.y;
             double xDelta_b = C.x - B.x;
-            var center = new Pair(0, 0);
 
             double aSlope = yDelta_a / xDelta_a;
             double bSlope = yDelta_b / xDelta_b;
+
+            var center = new Pair(0, 0);
             center.x = (aSlope * bSlope * (A.y - C.y) + bSlope * (A.x + B.x)
-                - aSlope * (B.x + C.x)) / (2 * (bSlope - aSlope));
+                        - aSlope * (B.x + C.x)) / (2 * (bSlope - aSlope));
             center.y = -1 * (center.x - (A.x + B.x) / 2) / aSlope + (A.y + B.y) / 2;
 
             Console.WriteLine(center);

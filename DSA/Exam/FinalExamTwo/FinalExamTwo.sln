@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cheaters", "Cheaters\Cheate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beers", "Beers\Beers.csproj", "{CA6E44E2-1F85-45B2-81CA-5755A93AC333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxSum", "MinMaxSum\MinMaxSum.csproj", "{93A85E5B-BC2D-47AC-AEC8-C03F859F86D1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{CA6E44E2-1F85-45B2-81CA-5755A93AC333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA6E44E2-1F85-45B2-81CA-5755A93AC333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA6E44E2-1F85-45B2-81CA-5755A93AC333}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93A85E5B-BC2D-47AC-AEC8-C03F859F86D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93A85E5B-BC2D-47AC-AEC8-C03F859F86D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93A85E5B-BC2D-47AC-AEC8-C03F859F86D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93A85E5B-BC2D-47AC-AEC8-C03F859F86D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

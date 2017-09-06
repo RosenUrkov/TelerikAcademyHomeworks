@@ -18,10 +18,10 @@ namespace BracketsMaster
                 return;
             }
 
-            var halfFactorial = 0;
+            BigInteger halfFactorial = 0;
             var halfFactCoef = 0;
 
-            var factorial = 1;
+            BigInteger factorial = 1;
             for (int i = 1; i <= n; i++)
             {
                 factorial = factorial * i;
