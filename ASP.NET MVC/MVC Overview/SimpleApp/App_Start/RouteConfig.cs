@@ -12,6 +12,14 @@ namespace SimpleApp
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.LowercaseUrls = true;
+
+            routes.MapRoute(
+                name: "MyRoute",
+                url: "default/{id}",
+                defaults: new { controller = "default", action = "index", id = 42},
+                constraints: new { id = @"\d+"}
+            );
 
             routes.MapRoute(
                 name: "Default",

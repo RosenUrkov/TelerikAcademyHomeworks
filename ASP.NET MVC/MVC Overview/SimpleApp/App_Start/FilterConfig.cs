@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using SimpleApp.Common.Filters;
+using System.Web;
 using System.Web.Mvc;
 
 namespace SimpleApp
@@ -8,6 +9,7 @@ namespace SimpleApp
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new LoggerFilterAttribute());
         }
     }
 }
