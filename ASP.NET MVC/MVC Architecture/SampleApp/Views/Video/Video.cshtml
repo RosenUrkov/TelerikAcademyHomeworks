@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Videos";
+}
+
+@using SampleApp.Models
+@model IEnumerable<Video>
+
+<h1>Videos</h1>
+@foreach (var item in Model)
+{
+    <video src="@Url.Content(item.FilePathString)" type='video/mp4' height="240" width="320" autoplay></video>
+}
+
+@Html.Partial("_Video")
+
